@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Business Automation Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-icon">🚀</span>
+                    BizAutomator
+                </h1>
+                <p class="tagline">Your AI-Powered E-Commerce Success Partner</p>
+            </div>
+        </header>
+    </div>
+    </div>
+
+    <button type="submit" class="btn-primary" id="analyzeBtn">
+        <span class="btn-icon">⚡</span>
+        Start Complete Analysis
+    </button>
+    </form>
+    </section>
+
+    <!-- Progress Section -->
+    <section class="progress-section glass-card" id="progressSection" style="display: none;">
+        <h2 class="section-title">Analysis in Progress</h2>
+        <div class="progress-container">
+            <div class="progress-step" data-step="1">
+                <div class="step-icon">📊</div>
+                <div class="step-info">
+                    <h3>Marketplace Scraper</h3>
+                    <p>Gathering product data from Amazon, Daraz...</p>
+                </div>
+                <div class="step-status">⏳</div>
+            </div>
+            <div class="progress-step" data-step="2">
+                <div class="step-icon">📈</div>
+                <div class="step-info">
+                    <h3>Trend Forecasting</h3>
+                    <p>Analyzing market trends and demand...</p>
+                </div>
+                <div class="step-status">⏳</div>
+            </div>
+            <div class="progress-step" data-step="3">
+                <div class="step-icon">🎯</div>
+                <div class="step-info">
+                    <h3>Competitor Analysis</h3>
+                    <p>Identifying and analyzing competitors...</p>
+                </div>
+                <div class="step-status">⏳</div>
+            </div>
+            <div class="progress-step" data-step="4">
+                <div class="step-icon">🏭</div>
+                <div class="step-info">
+                    <h3>Supplier Sourcing</h3>
+                    <p>Finding best suppliers for your product...</p>
+                </div>
+                <div class="step-status">⏳</div>
+            </div>
+            <div class="progress-step" data-step="5">
+                <div class="step-icon">💰</div>
+                <div class="step-info">
+                    <h3>Pricing Calculator</h3>
+                    <p>Calculating optimal pricing and profits...</p>
+                </div>
+                <div class="step-status">⏳</div>
+            </div>
+            <div class="progress-step" data-step="6">
+                <div class="step-icon">🛒</div>
+                <div class="step-info">
+                    <h3>Platform Recommender</h3>
+                    <p>Recommending best selling platforms...</p>
+                </div>
+                <div class="step-status">⏳</div>
+            </div>
+            <div class="progress-step" data-step="7">
+                <div class="step-icon">👥</div>
+                <div class="step-info">
+                    <h3>Audience Profiler</h3>
+                    <p>Identifying your target customers...</p>
+                </div>
+                <div class="step-status">⏳</div>
+            </div>
+            <div class="progress-step" data-step="8">
+                <div class="step-icon">📱</div>
+                <div class="step-info">
+                    <h3>Marketing Strategy</h3>
+                    <p>Generating comprehensive marketing plan...</p>
+                </div>
+                <div class="step-status">⏳</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section" id="resultsSection" style="display: none;">
+        <h2 class="section-title">Your Complete Business Analysis</h2>
+        <div id="resultsContainer"></div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 BizAutomator - E-Commerce Business Automation Platform</p>
+    </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>

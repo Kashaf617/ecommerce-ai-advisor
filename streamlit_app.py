@@ -140,17 +140,18 @@ def convert_currency(results, to_currency="PKR", exchange_rate=277.78):
                 pricing['product_cost'] *= exchange_rate
             
             for platform_pricing in ['amazon_pricing', 'daraz_pricing', 'shopify_pricing']:
-                if platform_pricing in pricing:
+                if platform_pricing in pricing and isinstance(pricing[platform_pricing], dict):
                     p = pricing[platform_pricing]
-                    for key in ['product_cost', 'recommended_price', 'total_cost', 'net_profit']:
-                        if key in p:
-                            p[key] *= exchange_rate
+                    # Handle AI-predicted prices (they use 'predicted_price' key)
+                    for key in ['product_cost', 'recommended_price', 'predicted_price', 'total_cost', 'net_profit', 'profit']:
+                        if key in p and p[key] is not None:
+                            p[key] = float(p[key]) * exchange_rate
             
             if 'platform_comparison' in pricing:
                 for platform in pricing['platform_comparison']:
-                    for key in ['recommended_price', 'total_cost', 'net_profit']:
-                        if key in platform:
-                            platform[key] *= exchange_rate
+                    for key in ['recommended_price', 'total_cost', 'net_profit', 'profit']:
+                        if key in platform and platform[key] is not None:
+                            platform[key] = float(platform[key]) * exchange_rate
         
         # Module 8: Marketing
         if 'module_8_marketing' in results:
@@ -703,11 +704,19 @@ def main():
                 with col1:
                     st.metric("Product Cost", f"{currency_symbol}{pricing.get('product_cost', 0):,.2f}")
                 with col2:
-                    st.metric("Amazon Price", f"{currency_symbol}{amazon_pricing.get('recommended_price', 0):,.2f}")
+                    # Handle AI-predicted price or traditional recommended price
+                    amazon_price = amazon_pricing.get('predicted_price') or amazon_pricing.get('recommended_price', 0)
+                    st.metric("Amazon Price", f"{currency_symbol}{amazon_price:,.2f}")
                 with col3:
                     st.metric("Amazon Margin", f"{amazon_pricing.get('profit_margin', 0):.1f}%")
                 with col4:
-                    st.metric("ROI", f"{amazon_pricing.get('roi', 0):.1f}%")
+                    # Calculate ROI if not present
+                    roi = amazon_pricing.get('roi', 0)
+                    if roi == 0 and 'profit' in amazon_pricing and 'total_cost' in amazon_pricing:
+                        total_cost = amazon_pricing['total_cost']
+                        if total_cost > 0:
+                            roi = (amazon_pricing['profit'] / total_cost) * 100
+                    st.metric("ROI", f"{roi:.1f}%")
                 
                 # Platform comparison chart
                 if 'platform_comparison' in pricing:

@@ -708,10 +708,12 @@ def main():
                     amazon_price = amazon_pricing.get('predicted_price') or amazon_pricing.get('recommended_price', 0)
                     st.metric("Amazon Price", f"{currency_symbol}{amazon_price:,.2f}")
                 with col3:
-                    st.metric("Amazon Margin", f"{amazon_pricing.get('profit_margin', 0):.1f}%")
+                    # Handle both AI (margin_percent) and traditional (profit_margin) keys
+                    margin = amazon_pricing.get('profit_margin') or amazon_pricing.get('margin_percent', 0)
+                    st.metric("Amazon Margin", f"{margin:.1f}%")
                 with col4:
-                    # Calculate ROI if not present
-                    roi = amazon_pricing.get('roi', 0)
+                    # Handle both AI (roi_percent) and traditional (roi) keys, with fallback calculation
+                    roi = amazon_pricing.get('roi') or amazon_pricing.get('roi_percent', 0)
                     if roi == 0 and 'profit' in amazon_pricing and 'total_cost' in amazon_pricing:
                         total_cost = amazon_pricing['total_cost']
                         if total_cost > 0:

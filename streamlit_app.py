@@ -449,11 +449,19 @@ def main():
             status_text.text("Step 5/8: 💰 Calculating optimal pricing...")
             progress_bar.progress(0.625)
             
-            product_cost = suppliers[0]['estimated_unit_cost'] if suppliers else price * 0.4
+            # Calculate product cost from supplier or estimate
+            if suppliers and len(suppliers) > 0 and 'estimated_unit_cost' in suppliers[0]:
+                product_cost = float(suppliers[0]['estimated_unit_cost'])
+            else:
+                # Fallback: estimate product cost as 40% of selling price
+                product_cost = float(price) * 0.4
+            
+            logger.info(f"Product cost for pricing: {currency_symbol}{product_cost:.2f}")
             
             platform_profitability = modules['pricing_calculator'].compare_platform_profitability(product_cost, price)
             pricing_amazon = modules['pricing_calculator'].calculate_pricing(product_cost, 'amazon', category=category)
             pricing_daraz = modules['pricing_calculator'].calculate_pricing(product_cost, 'daraz', category=category)
+
             
             results['module_5_pricing'] = {
                 'product_cost': product_cost,
@@ -462,6 +470,12 @@ def main():
                 'daraz_pricing': pricing_daraz,
                 'status': 'completed'
             }
+            
+            # Add ROI to amazon_pricing if missing
+            if 'roi' not in pricing_amazon and 'total_cost' in pricing_amazon and pricing_amazon['total_cost'] > 0:
+                profit = pricing_amazon.get('profit', 0)
+                pricing_amazon['roi'] = round((profit / pricing_amazon['total_cost']) * 100, 2)
+
             
             # Module 6: Platform Recommendations
             status_text.text("Step 6/8: 🛒 Recommending platforms...")

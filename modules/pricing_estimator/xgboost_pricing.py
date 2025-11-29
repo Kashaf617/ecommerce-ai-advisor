@@ -223,24 +223,6 @@ class XGBoostPricingModel:
         target_margin = product_data.get('target_margin', 0.30)
         
         # Simple markup formula
-        predicted_price = cost / (1 - target_margin)
-        profit = predicted_price - cost
-        margin = (profit / predicted_price * 100) if predicted_price > 0 else 0
-        roi = (profit / cost * 100) if cost > 0 else 0
-        
-        return {
-            'predicted_price': float(predicted_price),
-            'cost': cost,
-            'profit': float(profit),
-            'margin_percent': float(margin),
-            'roi_percent': float(roi),
-            'confidence': 0.65,
-            'confidence_level': 'Medium',
-            'model_type': 'Rule-Based Fallback',
-            'is_ml_prediction': False,
-            'note': 'XGBoost model not trained yet - using formula-based pricing'
-        }
-    
     def _get_top_features(self, features: pd.DataFrame) -> Dict[str, float]:
         """Get top contributing features"""
         if not self.is_trained:

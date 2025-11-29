@@ -1,0 +1,1862 @@
+{
+  "status": "success",
+  "timestamp": "2025-11-24 01:14:45",
+  "input": {
+    "category": "Electronics",
+    "product_name": "Wireless Headphones",
+    "price": 50.0,
+    "budget": 1000.0,
+    "quantity": 100,
+    "target_market": "pakistan",
+    "marketing_budget": 500.0
+  },
+  "module_1_scraper": {
+    "total_products_scraped": 100,
+    "platforms": [
+      "amazon",
+      "daraz"
+    ],
+    "status": "completed"
+  },
+  "module_2_trends": {
+    "category_trends": {
+      "category": "Electronics",
+      "total_products": 258,
+      "average_price": 12532.170000000002,
+      "price_range": {
+        "min": 20.52,
+        "max": 49980.07,
+        "median": 465.53
+      },
+      "average_rating": 4.10891472868217,
+      "total_reviews": 520137,
+      "top_brands": [
+        {
+          "name": "Brand W",
+          "count": 16
+        },
+        {
+          "name": "Brand U",
+          "count": 16
+        },
+        {
+          "name": "Brand R",
+          "count": 15
+        },
+        {
+          "name": "Brand D",
+          "count": 14
+        },
+        {
+          "name": "Brand S",
+          "count": 12
+        },
+        {
+          "name": "Brand M",
+          "count": 12
+        },
+        {
+          "name": "Brand J",
+          "count": 12
+        },
+        {
+          "name": "Brand A",
+          "count": 11
+        },
+        {
+          "name": "Brand K",
+          "count": 10
+        },
+        {
+          "name": "Brand P",
+          "count": 10
+        }
+      ],
+      "top_sellers": [
+        {
+          "name": "Seller 79",
+          "count": 10
+        },
+        {
+          "name": "Seller 73",
+          "count": 6
+        },
+        {
+          "name": "Seller 99",
+          "count": 6
+        },
+        {
+          "name": "Daraz Seller 34",
+          "count": 6
+        },
+        {
+          "name": "Daraz Seller 100",
+          "count": 5
+        },
+        {
+          "name": "Daraz Seller 29",
+          "count": 5
+        },
+        {
+          "name": "Seller 43",
+          "count": 4
+        },
+        {
+          "name": "Seller 97",
+          "count": 4
+        },
+        {
+          "name": "Daraz Seller 22",
+          "count": 4
+        },
+        {
+          "name": "Seller 66",
+          "count": 4
+        }
+      ],
+      "platform_distribution": {
+        "amazon": 134,
+        "daraz": 124
+      },
+      "price_segments": {
+        "Budget": {
+          "count": 173,
+          "avg_price": 2140.0146242774567,
+          "avg_rating": 4.171098265895953
+        },
+        "Mid-range": {
+          "count": 40,
+          "avg_price": 24413.27525,
+          "avg_rating": 4.0675
+        },
+        "Premium": {
+          "count": 45,
+          "avg_price": 41923.251555555566,
+          "avg_rating": 3.9066666666666663
+        }
+      },
+      "discount_analysis": {
+        "products_with_discount": 140,
+        "discount_percentage": 54.3,
+        "average_discount": 50.725,
+        "max_discount": 98.1,
+        "median_discount": 49.6
+      },
+      "availability analysis": {
+        "distribution": {
+          "Pre-order": 94,
+          "In Stock": 81,
+          "Limited Stock": 46,
+          "Out of Stock": 37
+        },
+        "in_stock_percentage": 31.4
+      },
+      "accuracy_metrics": {
+        "accuracy_score": 97.5,
+        "confidence_level": "High",
+        "sample_size": 258,
+        "data_quality_score": 100,
+        "reliability": "Reliable",
+        "notes": [
+          "Good sample size - results are statistically significant"
+        ]
+      },
+      "analyzed_at": "2025-11-24 01:14:45"
+    },
+    "demand_forecast": {
+      "category": "Electronics",
+      "forecast_period_days": 30,
+      "current_demand_score": 92.87,
+      "demand_level": "High",
+      "weekly_forecast": [
+        {
+          "week": 1,
+          "estimated_demand": 89.25,
+          "confidence": 95
+        },
+        {
+          "week": 2,
+          "estimated_demand": 91.74,
+          "confidence": 90
+        },
+        {
+          "week": 3,
+          "estimated_demand": 92.98,
+          "confidence": 85
+        },
+        {
+          "week": 4,
+          "estimated_demand": 90.36,
+          "confidence": 80
+        }
+      ],
+      "key_metrics": {
+        "average_rating": 4.11,
+        "average_reviews": 2016.0,
+        "total_products": 258
+      },
+      "recommendations": [
+        "Strong market demand detected - excellent opportunity to enter",
+        "Consider competitive pricing to capture market share",
+        "Invest in marketing to capitalize on high demand",
+        "Ensure adequate inventory to meet demand"
+      ],
+      "forecasted_at": "2025-11-24 01:14:45",
+      "accuracy_metrics": {
+        "forecast_confidence": 95,
+        "confidence_level": "High",
+        "model_type": "Statistical Analysis",
+        "data_points": 258,
+        "prediction_reliability": "Highly reliable - strong data support",
+        "margin_of_error": "±5%"
+      }
+    },
+    "trending_products": [
+      {
+        "title": "Fashion Product 9",
+        "platform": "amazon",
+        "category": "Books",
+        "price": 23.91,
+        "rating": 4.9,
+        "reviews": 3808,
+        "discount": 94.8,
+        "trending_score": 0.9237536589943582,
+        "url": "https://amazon.com/product/9"
+      },
+      {
+        "title": "Fashion Product 9",
+        "platform": "amazon",
+        "category": "Books",
+        "price": 23.91,
+        "rating": 4.9,
+        "reviews": 3808,
+        "discount": 94.8,
+        "trending_score": 0.9237536589943582,
+        "url": "https://amazon.com/product/9"
+      },
+      {
+        "title": "Fashion Product 48",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 16.96,
+        "rating": 4.8,
+        "reviews": 3181,
+        "discount": 95.6,
+        "trending_score": 0.9127579562669319,
+        "url": "https://amazon.com/product/48"
+      },
+      {
+        "title": "Fashion Product 48",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 16.96,
+        "rating": 4.8,
+        "reviews": 3181,
+        "discount": 95.6,
+        "trending_score": 0.9127579562669319,
+        "url": "https://amazon.com/product/48"
+      },
+      {
+        "title": "Electronics Item 50",
+        "platform": "daraz",
+        "category": "Home",
+        "price": 5594.25,
+        "rating": 4.9,
+        "reviews": 2732,
+        "discount": 90.6,
+        "trending_score": 0.9011946555778421,
+        "url": "https://daraz.pk/product/50"
+      },
+      {
+        "title": "Electronics Item 50",
+        "platform": "daraz",
+        "category": "Home",
+        "price": 5594.25,
+        "rating": 4.9,
+        "reviews": 2732,
+        "discount": 90.6,
+        "trending_score": 0.9011946555778421,
+        "url": "https://daraz.pk/product/50"
+      },
+      {
+        "title": "Electronics Item 27",
+        "platform": "daraz",
+        "category": "Beauty",
+        "price": 900.84,
+        "rating": 4.9,
+        "reviews": 969,
+        "discount": 97.8,
+        "trending_score": 0.8917188821449229,
+        "url": "https://daraz.pk/product/27"
+      },
+      {
+        "title": "Electronics Item 27",
+        "platform": "daraz",
+        "category": "Beauty",
+        "price": 900.84,
+        "rating": 4.9,
+        "reviews": 969,
+        "discount": 97.8,
+        "trending_score": 0.8917188821449229,
+        "url": "https://daraz.pk/product/27"
+      },
+      {
+        "title": "Electronics Product 34",
+        "platform": "amazon",
+        "category": "Electronics",
+        "price": 44.97,
+        "rating": 4.7,
+        "reviews": 2633,
+        "discount": 92.1,
+        "trending_score": 0.8885877664690969,
+        "url": "https://amazon.com/product/34"
+      },
+      {
+        "title": "Electronics Product 34",
+        "platform": "amazon",
+        "category": "Electronics",
+        "price": 44.97,
+        "rating": 4.7,
+        "reviews": 2633,
+        "discount": 92.1,
+        "trending_score": 0.8885877664690969,
+        "url": "https://amazon.com/product/34"
+      }
+    ],
+    "status": "completed"
+  },
+  "module_3_competitors": {
+    "total_competitors": 5,
+    "top_competitors": [
+      {
+        "seller_name": "Seller 88",
+        "product_count": 4,
+        "average_price": 55.46000000000001,
+        "price_range": {
+          "min": 47.06,
+          "max": 63.86
+        },
+        "average_rating": 4.55,
+        "total_reviews": 18826,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 74.4,
+        "competitive_score": 65.75
+      },
+      {
+        "seller_name": "Seller 76",
+        "product_count": 2,
+        "average_price": 44.97,
+        "price_range": {
+          "min": 44.97,
+          "max": 44.97
+        },
+        "average_rating": 4.7,
+        "total_reviews": 5266,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 92.1,
+        "competitive_score": 62.5
+      },
+      {
+        "seller_name": "Seller 69",
+        "product_count": 2,
+        "average_price": 56.85,
+        "price_range": {
+          "min": 56.85,
+          "max": 56.85
+        },
+        "average_rating": 4.6,
+        "total_reviews": 2172,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 0.0,
+        "competitive_score": 62.0
+      },
+      {
+        "seller_name": "Seller 46",
+        "product_count": 2,
+        "average_price": 40.68,
+        "price_range": {
+          "min": 40.68,
+          "max": 40.68
+        },
+        "average_rating": 3.9,
+        "total_reviews": 1262,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 87.8,
+        "competitive_score": 58.5
+      },
+      {
+        "seller_name": "Seller 31",
+        "product_count": 2,
+        "average_price": 42.73,
+        "price_range": {
+          "min": 42.73,
+          "max": 42.73
+        },
+        "average_rating": 3.6,
+        "total_reviews": 9772,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 91.9,
+        "competitive_score": 57.0
+      }
+    ],
+    "competitive_analysis": {
+      "category": "Electronics",
+      "user_price": 50.0,
+      "market_statistics": {
+        "average_price": 48.14,
+        "median_price": 44.97,
+        "price_range": {
+          "min": 40.68,
+          "max": 56.85
+        },
+        "average_rating": 4.27
+      },
+      "price_positioning": "Mid-range",
+      "price_competitiveness": "Market Average",
+      "top_competitors": [
+        {
+          "seller_name": "Seller 88",
+          "product_count": 4,
+          "average_price": 55.46000000000001,
+          "price_range": {
+            "min": 47.06,
+            "max": 63.86
+          },
+          "average_rating": 4.55,
+          "total_reviews": 18826,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 74.4,
+          "competitive_score": 65.75
+        },
+        {
+          "seller_name": "Seller 76",
+          "product_count": 2,
+          "average_price": 44.97,
+          "price_range": {
+            "min": 44.97,
+            "max": 44.97
+          },
+          "average_rating": 4.7,
+          "total_reviews": 5266,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 92.1,
+          "competitive_score": 62.5
+        },
+        {
+          "seller_name": "Seller 69",
+          "product_count": 2,
+          "average_price": 56.85,
+          "price_range": {
+            "min": 56.85,
+            "max": 56.85
+          },
+          "average_rating": 4.6,
+          "total_reviews": 2172,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 0.0,
+          "competitive_score": 62.0
+        },
+        {
+          "seller_name": "Seller 46",
+          "product_count": 2,
+          "average_price": 40.68,
+          "price_range": {
+            "min": 40.68,
+            "max": 40.68
+          },
+          "average_rating": 3.9,
+          "total_reviews": 1262,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 87.8,
+          "competitive_score": 58.5
+        },
+        {
+          "seller_name": "Seller 31",
+          "product_count": 2,
+          "average_price": 42.73,
+          "price_range": {
+            "min": 42.73,
+            "max": 42.73
+          },
+          "average_rating": 3.6,
+          "total_reviews": 9772,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 91.9,
+          "competitive_score": 57.0
+        }
+      ],
+      "market_saturation": {
+        "level": "Medium",
+        "competitor_count": 5,
+        "description": "Moderate competition - balanced market"
+      },
+      "competitive_advantages": [
+        "Multi-platform strategy could provide advantage",
+        "Market relies heavily on discounts - opportunity for value positioning"
+      ],
+      "recommendations": [
+        "Monitor competitor pricing and adjust strategy quarterly",
+        "Differentiate through superior customer service and product quality"
+      ],
+      "accuracy_metrics": {
+        "accuracy_score": 82.0,
+        "confidence_level": "High",
+        "competitors_analyzed": 5,
+        "data_completeness": 100.0,
+        "analysis_reliability": "High - Comprehensive competitive data available",
+        "recommendation": "Analysis is reliable - confidence in competitive insights"
+      },
+      "analyzed_at": "2025-11-24 01:14:45"
+    },
+    "status": "completed"
+  },
+  "module_4_suppliers": {
+    "recommended_suppliers": [
+      {
+        "name": "Premium Brand Distributors",
+        "type": "Brand Distributor",
+        "region": "UAE",
+        "moq_range": [
+          50,
+          2000
+        ],
+        "price_tier": "High",
+        "quality_rating": 4.8,
+        "reliability_score": 4.9,
+        "shipping_time_days": [
+          5,
+          10
+        ],
+        "specialty_categories": [
+          "Electronics",
+          "Beauty",
+          "Fashion"
+        ],
+        "contact": "premium-dist.ae",
+        "recommendation_score": 76.83,
+        "estimated_unit_cost": 56.25,
+        "estimated_total_cost": 5625.0,
+        "fits_budget": false,
+        "pros": [
+          "High quality products (rating: 4.8/5)",
+          "Highly reliable supplier",
+          "Fast shipping (up to 10 days)"
+        ],
+        "cons": [
+          "Higher cost structure",
+          "International shipping complexities"
+        ]
+      },
+      {
+        "name": "Alibaba Wholesale",
+        "type": "Wholesale Platform",
+        "region": "China",
+        "moq_range": [
+          100,
+          10000
+        ],
+        "price_tier": "Low",
+        "quality_rating": 4.2,
+        "reliability_score": 4.5,
+        "shipping_time_days": [
+          15,
+          30
+        ],
+        "specialty_categories": [
+          "Electronics",
+          "Fashion",
+          "Home"
+        ],
+        "contact": "alibaba.com",
+        "recommendation_score": 76.0,
+        "estimated_unit_cost": 11.25,
+        "estimated_total_cost": 1125.0,
+        "fits_budget": false,
+        "pros": [
+          "Low cost sourcing (Low price tier)",
+          "Highly reliable supplier"
+        ],
+        "cons": [
+          "International shipping complexities"
+        ]
+      },
+      {
+        "name": "DHgate",
+        "type": "Wholesale Platform",
+        "region": "China",
+        "moq_range": [
+          1,
+          1000
+        ],
+        "price_tier": "Low",
+        "quality_rating": 3.8,
+        "reliability_score": 4.0,
+        "shipping_time_days": [
+          10,
+          25
+        ],
+        "specialty_categories": [
+          "Electronics",
+          "Fashion",
+          "Sports"
+        ],
+        "contact": "dhgate.com",
+        "recommendation_score": 74.28,
+        "estimated_unit_cost": 11.25,
+        "estimated_total_cost": 1125.0,
+        "fits_budget": false,
+        "pros": [
+          "Low cost sourcing (Low price tier)",
+          "Low MOQ (minimum 1 units)"
+        ],
+        "cons": [
+          "Quality concerns (rating: 3.8/5)",
+          "International shipping complexities"
+        ]
+      }
+    ],
+    "sourcing_strategy": {
+      "product_category": "Electronics",
+      "recommended_suppliers": [
+        {
+          "name": "Premium Brand Distributors",
+          "type": "Brand Distributor",
+          "region": "UAE",
+          "moq_range": [
+            50,
+            2000
+          ],
+          "price_tier": "High",
+          "quality_rating": 4.8,
+          "reliability_score": 4.9,
+          "shipping_time_days": [
+            5,
+            10
+          ],
+          "specialty_categories": [
+            "Electronics",
+            "Beauty",
+            "Fashion"
+          ],
+          "contact": "premium-dist.ae",
+          "recommendation_score": 76.83,
+          "estimated_unit_cost": 56.25,
+          "estimated_total_cost": 5625.0,
+          "fits_budget": false,
+          "pros": [
+            "High quality products (rating: 4.8/5)",
+            "Highly reliable supplier",
+            "Fast shipping (up to 10 days)"
+          ],
+          "cons": [
+            "Higher cost structure",
+            "International shipping complexities"
+          ]
+        },
+        {
+          "name": "Alibaba Wholesale",
+          "type": "Wholesale Platform",
+          "region": "China",
+          "moq_range": [
+            100,
+            10000
+          ],
+          "price_tier": "Low",
+          "quality_rating": 4.2,
+          "reliability_score": 4.5,
+          "shipping_time_days": [
+            15,
+            30
+          ],
+          "specialty_categories": [
+            "Electronics",
+            "Fashion",
+            "Home"
+          ],
+          "contact": "alibaba.com",
+          "recommendation_score": 76.0,
+          "estimated_unit_cost": 11.25,
+          "estimated_total_cost": 1125.0,
+          "fits_budget": false,
+          "pros": [
+            "Low cost sourcing (Low price tier)",
+            "Highly reliable supplier"
+          ],
+          "cons": [
+            "International shipping complexities"
+          ]
+        },
+        {
+          "name": "DHgate",
+          "type": "Wholesale Platform",
+          "region": "China",
+          "moq_range": [
+            1,
+            1000
+          ],
+          "price_tier": "Low",
+          "quality_rating": 3.8,
+          "reliability_score": 4.0,
+          "shipping_time_days": [
+            10,
+            25
+          ],
+          "specialty_categories": [
+            "Electronics",
+            "Fashion",
+            "Sports"
+          ],
+          "contact": "dhgate.com",
+          "recommendation_score": 74.28,
+          "estimated_unit_cost": 11.25,
+          "estimated_total_cost": 1125.0,
+          "fits_budget": false,
+          "pros": [
+            "Low cost sourcing (Low price tier)",
+            "Low MOQ (minimum 1 units)"
+          ],
+          "cons": [
+            "Quality concerns (rating: 3.8/5)",
+            "International shipping complexities"
+          ]
+        }
+      ],
+      "business_model_recommendations": {
+        "recommended_model": "Small Batch Wholesale",
+        "reason": "Moderate investment - buy small wholesale batches for better margins"
+      },
+      "sourcing_approach": "Primary supplier with backup supplier, moderate orders",
+      "quality_control_tips": [
+        "Request product samples before bulk order",
+        "Conduct third-party quality inspection",
+        "Start with smaller test orders",
+        "Review supplier certifications and compliance",
+        "Check customer reviews and ratings"
+      ],
+      "negotiation_tips": [
+        "For orders above 100 units, negotiate 10-15% bulk discount",
+        "Request better payment terms (e.g., 30% deposit, 70% on delivery)",
+        "Ask for free samples or reduced sample costs",
+        "Negotiate shipping costs for large orders",
+        "Build long-term relationship for better terms"
+      ],
+      "risk_mitigation": [
+        "Use secure payment methods (escrow, trade assurance)",
+        "Purchase shipping insurance",
+        "Verify supplier credentials and business license",
+        "Start with small test batch before scaling",
+        "Have backup suppliers identified"
+      ],
+      "generated_at": "2025-11-24 01:14:45"
+    },
+    "accuracy_metrics": {
+      "confidence_score": 87.0,
+      "confidence_level": "High",
+      "suppliers_found": 3,
+      "data_completeness": "100%",
+      "recommendation_reliability": "High - Multiple suitable suppliers with complete data",
+      "note": "Recommendations based on MOQ compatibility and category specialization"
+    },
+    "status": "completed"
+  },
+  "module_5_pricing": {
+    "product_cost": 56.25,
+    "platform_comparison": [
+      {
+        "platform": "daraz",
+        "platform_display_name": "Daraz",
+        "total_cost": 80.44,
+        "profit": -30.44,
+        "profit_margin": -60.88,
+        "roi": -37.84,
+        "recommendation": "Low profitability"
+      },
+      {
+        "platform": "amazon",
+        "platform_display_name": "Amazon",
+        "total_cost": 91.79,
+        "profit": -41.79,
+        "profit_margin": -83.59,
+        "roi": -45.53,
+        "recommendation": "Low profitability"
+      }
+    ],
+    "amazon_pricing": {
+      "recommended_price": 131.14,
+      "cost_breakdown": {
+        "product_cost": 56.25,
+        "shipping_cost": 5.625,
+        "packaging_cost": 2.8125,
+        "marketing_cost": 8.4375,
+        "referral_fee": 15.669642857142858,
+        "fulfillment_fee": 3.0,
+        "tax": 0,
+        "total_cost": 91.79464285714286
+      },
+      "profit": 39.34,
+      "profit_margin": 30.0,
+      "roi": 42.86,
+      "break_even_units": 0.0,
+      "market_comparison": {
+        "average_price": 187.4357142857143,
+        "median_price": 218.01,
+        "price_range": {
+          "min": 42.73,
+          "max": 351.18
+        },
+        "percentiles": {
+          "25th": 65.89,
+          "75th": 284.175
+        }
+      },
+      "pricing_recommendations": [
+        "Your price is 30.0% below market average - competitive advantage",
+        "Consider if you can maintain quality at this price point",
+        "Test pricing with A/B testing if possible",
+        "Monitor competitor pricing changes monthly",
+        "Consider psychological pricing (e.g., $19.99 vs $20.00)"
+      ],
+      "accuracy_metrics": {
+        "accuracy_score": 87.0,
+        "confidence_level": "High",
+        "market_data_available": true,
+        "pricing_method": "Cost-plus with market benchmarking",
+        "reliability": "High - Based on comprehensive market analysis",
+        "recommendation": "Monitor competitor pricing weekly"
+      },
+      "calculated_at": "2025-11-24 01:14:45"
+    },
+    "daraz_pricing": {
+      "recommended_price": 114.91,
+      "cost_breakdown": {
+        "product_cost": 56.25,
+        "shipping_cost": 5.625,
+        "packaging_cost": 2.8125,
+        "marketing_cost": 8.4375,
+        "commission": 5.2232142857142865,
+        "payment_gateway_fee": 2.0892857142857144,
+        "tax": 0,
+        "total_cost": 80.4375
+      },
+      "profit": 34.47,
+      "profit_margin": 30.0,
+      "roi": 42.86,
+      "break_even_units": 0.0,
+      "market_comparison": {
+        "average_price": 27204.023999999998,
+        "median_price": 28143.105,
+        "price_range": {
+          "min": 6328.16,
+          "max": 42761.49
+        },
+        "percentiles": {
+          "25th": 16600.7,
+          "75th": 39220.0325
+        }
+      },
+      "pricing_recommendations": [
+        "Your price is 99.6% below market average - competitive advantage",
+        "Consider if you can maintain quality at this price point",
+        "Test pricing with A/B testing if possible",
+        "Monitor competitor pricing changes monthly",
+        "Consider psychological pricing (e.g., $19.99 vs $20.00)"
+      ],
+      "accuracy_metrics": {
+        "accuracy_score": 87.0,
+        "confidence_level": "High",
+        "market_data_available": true,
+        "pricing_method": "Cost-plus with market benchmarking",
+        "reliability": "High - Based on comprehensive market analysis",
+        "recommendation": "Monitor competitor pricing weekly"
+      },
+      "calculated_at": "2025-11-24 01:14:45"
+    },
+    "status": "completed"
+  },
+  "module_6_platforms": {
+    "recommended_platforms": [
+      {
+        "platform": "daraz",
+        "platform_name": "Daraz",
+        "recommendation_score": 100,
+        "suitability_rating": "Excellent",
+        "fee_structure": {
+          "commission": 0.05,
+          "payment_gateway": 0.02
+        },
+        "pros": [
+          "Leading platform in Pakistan and South Asia",
+          "Lower fees compared to international platforms",
+          "Cash on Delivery widely accepted",
+          "Local language and currency support",
+          "Growing customer base in region"
+        ],
+        "cons": [
+          "Limited to Pakistan and select Asian markets",
+          "Smaller customer base than global platforms",
+          "Payment processing can be slower",
+          "Less sophisticated seller tools"
+        ],
+        "best_for": [
+          "Pakistan and South Asian markets",
+          "Fashion and apparel",
+          "Beauty and personal care",
+          "Affordable products under Rs. 10,000",
+          "Cash on delivery preferred customers"
+        ],
+        "market_insights": {
+          "total_products": 10,
+          "average_price": 27204.023999999998,
+          "average_rating": 3.7299999999999995,
+          "competition_level": "Low"
+        },
+        "setup_difficulty": {
+          "level": "Easy to Moderate",
+          "time_to_setup": "3-5 days",
+          "requirements": [
+            "CNIC/Business registration",
+            "Bank account",
+            "Contact information",
+            "Product listings"
+          ]
+        },
+        "estimated_reach": {
+          "monthly_visitors": "50 million",
+          "active_customers": "10 million"
+        },
+        "accuracy_metrics": {
+          "confidence_score": 82.5,
+          "confidence_level": "High",
+          "data_backed": true,
+          "recommendation_strength": "Good - Recommended with available data support",
+          "validation_note": "Based on market data analysis"
+        }
+      },
+      {
+        "platform": "amazon",
+        "platform_name": "Amazon",
+        "recommendation_score": 60,
+        "suitability_rating": "Good",
+        "fee_structure": {
+          "referral_fee": 0.15,
+          "closing_fee": 0,
+          "fulfillment_fee": "variable"
+        },
+        "pros": [
+          "Massive global reach and customer base",
+          "Trusted brand with high conversion rates",
+          "FBA (Fulfillment by Amazon) handles logistics",
+          "Prime membership drives sales",
+          "Advanced analytics and seller tools"
+        ],
+        "cons": [
+          "High fees (15-20% total)",
+          "Intense competition",
+          "Strict policies and potential account suspension",
+          "Complex setup for international sellers",
+          "Requires inventory for FBA"
+        ],
+        "best_for": [
+          "Premium branded products",
+          "Electronics and gadgets",
+          "Books and media",
+          "International market expansion",
+          "Products with consistent demand"
+        ],
+        "market_insights": {
+          "total_products": 7,
+          "average_price": 187.4357142857143,
+          "average_rating": 4.357142857142857,
+          "competition_level": "Low"
+        },
+        "setup_difficulty": {
+          "level": "Moderate to Difficult",
+          "time_to_setup": "1-2 weeks",
+          "requirements": [
+            "Business registration",
+            "Tax information",
+            "Bank account",
+            "Product identification (UPC/EAN)",
+            "Identity verification"
+          ]
+        },
+        "estimated_reach": {
+          "monthly_visitors": "Limited",
+          "active_customers": "Limited"
+        },
+        "accuracy_metrics": {
+          "confidence_score": 77.5,
+          "confidence_level": "Medium",
+          "data_backed": true,
+          "recommendation_strength": "Good - Recommended with available data support",
+          "validation_note": "Based on market data analysis"
+        }
+      }
+    ],
+    "multi_platform_strategy": {
+      "product_category": "Electronics",
+      "primary_platform": {
+        "platform": "daraz",
+        "platform_name": "Daraz",
+        "recommendation_score": 100,
+        "suitability_rating": "Excellent",
+        "fee_structure": {
+          "commission": 0.05,
+          "payment_gateway": 0.02
+        },
+        "pros": [
+          "Leading platform in Pakistan and South Asia",
+          "Lower fees compared to international platforms",
+          "Cash on Delivery widely accepted",
+          "Local language and currency support",
+          "Growing customer base in region"
+        ],
+        "cons": [
+          "Limited to Pakistan and select Asian markets",
+          "Smaller customer base than global platforms",
+          "Payment processing can be slower",
+          "Less sophisticated seller tools"
+        ],
+        "best_for": [
+          "Pakistan and South Asian markets",
+          "Fashion and apparel",
+          "Beauty and personal care",
+          "Affordable products under Rs. 10,000",
+          "Cash on delivery preferred customers"
+        ],
+        "market_insights": {
+          "total_products": 10,
+          "average_price": 27204.023999999998,
+          "average_rating": 3.7299999999999995,
+          "competition_level": "Low"
+        },
+        "setup_difficulty": {
+          "level": "Easy to Moderate",
+          "time_to_setup": "3-5 days",
+          "requirements": [
+            "CNIC/Business registration",
+            "Bank account",
+            "Contact information",
+            "Product listings"
+          ]
+        },
+        "estimated_reach": {
+          "monthly_visitors": "50 million",
+          "active_customers": "10 million"
+        },
+        "accuracy_metrics": {
+          "confidence_score": 82.5,
+          "confidence_level": "High",
+          "data_backed": true,
+          "recommendation_strength": "Good - Recommended with available data support",
+          "validation_note": "Based on market data analysis"
+        }
+      },
+      "secondary_platforms": [
+        {
+          "platform": "amazon",
+          "platform_name": "Amazon",
+          "recommendation_score": 60,
+          "suitability_rating": "Good",
+          "fee_structure": {
+            "referral_fee": 0.15,
+            "closing_fee": 0,
+            "fulfillment_fee": "variable"
+          },
+          "pros": [
+            "Massive global reach and customer base",
+            "Trusted brand with high conversion rates",
+            "FBA (Fulfillment by Amazon) handles logistics",
+            "Prime membership drives sales",
+            "Advanced analytics and seller tools"
+          ],
+          "cons": [
+            "High fees (15-20% total)",
+            "Intense competition",
+            "Strict policies and potential account suspension",
+            "Complex setup for international sellers",
+            "Requires inventory for FBA"
+          ],
+          "best_for": [
+            "Premium branded products",
+            "Electronics and gadgets",
+            "Books and media",
+            "International market expansion",
+            "Products with consistent demand"
+          ],
+          "market_insights": {
+            "total_products": 7,
+            "average_price": 187.4357142857143,
+            "average_rating": 4.357142857142857,
+            "competition_level": "Low"
+          },
+          "setup_difficulty": {
+            "level": "Moderate to Difficult",
+            "time_to_setup": "1-2 weeks",
+            "requirements": [
+              "Business registration",
+              "Tax information",
+              "Bank account",
+              "Product identification (UPC/EAN)",
+              "Identity verification"
+            ]
+          },
+          "estimated_reach": {
+            "monthly_visitors": "Limited",
+            "active_customers": "Limited"
+          },
+          "accuracy_metrics": {
+            "confidence_score": 77.5,
+            "confidence_level": "Medium",
+            "data_backed": true,
+            "recommendation_strength": "Good - Recommended with available data support",
+            "validation_note": "Based on market data analysis"
+          }
+        }
+      ],
+      "launch_sequence": [
+        {
+          "phase": "Phase 1 (Month 1-2)",
+          "action": "Launch on Daraz",
+          "reason": "Test product-market fit on the most suitable platform",
+          "focus": "Build initial reviews and optimize listing"
+        },
+        {
+          "phase": "Phase 2 (Month 3-4)",
+          "action": "Expand to secondary platform if primary shows success",
+          "reason": "Diversify sales channels",
+          "focus": "Leverage learnings from primary platform"
+        },
+        {
+          "phase": "Phase 3 (Month 5+)",
+          "action": "Consider additional platforms based on performance",
+          "reason": "Maximize market coverage",
+          "focus": "Optimize operations across all platforms"
+        }
+      ],
+      "inventory_strategy": "Multi-platform - use centralized inventory with clear allocation per platform",
+      "pricing_strategy": {
+        "recommendation": "Platform-specific pricing",
+        "details": "Adjust prices based on fees and competition per platform",
+        "tips": [
+          "Consider platform fees when setting prices",
+          "Monitor competitor pricing on each platform",
+          "Test different price points",
+          "Account for currency differences"
+        ]
+      },
+      "marketing_allocation": {
+        "Daraz": "62.5%",
+        "Amazon": "37.5%"
+      },
+      "generated_at": "2025-11-24 01:14:45"
+    },
+    "status": "completed"
+  },
+  "module_7_audience": {
+    "audience_profile": {
+      "product_category": "electronics",
+      "price_point": 50.0,
+      "primary_demographics": {
+        "age_range": "18-45",
+        "gender": "All genders (slight male skew)",
+        "income_level": "Middle income",
+        "education": "College educated or equivalent",
+        "occupation": [
+          "Tech professionals",
+          "Students",
+          "Office workers",
+          "Entrepreneurs"
+        ]
+      },
+      "buyer_personas": [
+        {
+          "name": "Tech-Savvy Professional",
+          "type": "Primary",
+          "age": "18 years old",
+          "occupation": "Tech professionals",
+          "goals": [
+            "Stay updated with latest technology",
+            "Improve productivity",
+            "Get best value for money",
+            "Find reliable products"
+          ],
+          "pain_points": [
+            "Overwhelming product choices",
+            "Concerned about quality/authenticity",
+            "Uncertain about compatibility",
+            "Worried about after-sales support"
+          ],
+          "buying_motivations": [
+            "Quality",
+            "Durability",
+            "Brand reputation",
+            "Latest features",
+            "Performance",
+            "Brand trust"
+          ],
+          "online_behavior": {
+            "research_before_buying": "Yes - reads reviews and compares prices",
+            "social_media_usage": "High - Instagram, Facebook, TikTok",
+            "influencer_impact": "Medium to High",
+            "preferred_shopping_time": "Evenings and weekends",
+            "device_preference": "Mobile-first (70% mobile, 30% desktop)"
+          },
+          "preferred_content": [
+            "Product reviews",
+            "Comparison videos",
+            "Tech specs",
+            "Unboxing videos"
+          ]
+        },
+        {
+          "name": "Budget-Conscious Student",
+          "type": "Secondary",
+          "age": "45 years old",
+          "occupation": "Students",
+          "goals": [
+            "Stay updated with latest technology",
+            "Improve productivity",
+            "Get best value for money",
+            "Find reliable products"
+          ],
+          "pain_points": [
+            "Overwhelming product choices",
+            "Concerned about quality/authenticity",
+            "Uncertain about compatibility",
+            "Worried about after-sales support"
+          ],
+          "buying_motivations": [
+            "Quality",
+            "Durability",
+            "Brand reputation",
+            "Latest features",
+            "Performance",
+            "Brand trust"
+          ],
+          "online_behavior": {
+            "research_before_buying": "Yes - reads reviews and compares prices",
+            "social_media_usage": "High - Instagram, Facebook, TikTok",
+            "influencer_impact": "Medium to High",
+            "preferred_shopping_time": "Evenings and weekends",
+            "device_preference": "Mobile-first (70% mobile, 30% desktop)"
+          },
+          "preferred_content": [
+            "Product reviews",
+            "Comparison videos",
+            "Tech specs",
+            "Unboxing videos"
+          ]
+        }
+      ],
+      "buying_behavior": {
+        "purchase_frequency": "Low (1-2 times per year)",
+        "average_time_to_purchase": "1-2 weeks (extensive research)",
+        "price_sensitivity": "High - actively seeks discounts and compares prices",
+        "brand_loyalty": "Medium to High - sticks with trusted brands",
+        "impulse_buying_tendency": "Low - planned purchases",
+        "influenced_by": [
+          "Reviews",
+          "Social proof",
+          "Discounts",
+          "Free shipping",
+          "Influencers"
+        ]
+      },
+      "geographic_targeting": {
+        "primary_markets": [
+          "Urban areas",
+          "Tier 1 cities",
+          "Metropolitan regions"
+        ],
+        "secondary_markets": [
+          "Tier 2 cities",
+          "Suburban areas"
+        ],
+        "country_focus": "Pakistan",
+        "shipping_considerations": [
+          "Offer free shipping for orders above threshold",
+          "Partner with local courier services",
+          "Consider Cash on Delivery for Pakistan market",
+          "International shipping for premium products"
+        ]
+      },
+      "psychographics": {
+        "lifestyle": [
+          "Tech-forward",
+          "Fast-paced",
+          "Always connected"
+        ],
+        "values": [
+          "Quality",
+          "Value",
+          "Convenience",
+          "Authenticity",
+          "Sustainability"
+        ],
+        "interests": [
+          "Technology",
+          "Gaming",
+          "Photography",
+          "Innovation"
+        ],
+        "personality_traits": [
+          "Informed decision-maker",
+          "Value-seeker",
+          "Quality-conscious",
+          "Digitally savvy"
+        ]
+      },
+      "marketing_channels": {
+        "primary_channels": [
+          {
+            "channel": "Instagram",
+            "priority": "High",
+            "reason": "Visual platform, high engagement for product categories",
+            "content_type": "Product photos, Stories, Reels, Influencer partnerships"
+          },
+          {
+            "channel": "Facebook",
+            "priority": "High",
+            "reason": "Large user base, advanced targeting options",
+            "content_type": "Sponsored posts, Groups, Marketplace"
+          },
+          {
+            "channel": "Google Ads",
+            "priority": "Medium to High",
+            "reason": "Capture search intent",
+            "content_type": "Search ads, Shopping ads, Display ads"
+          }
+        ],
+        "secondary_channels": [
+          {
+            "channel": "TikTok",
+            "reason": "Growing platform for younger demographics"
+          },
+          {
+            "channel": "YouTube",
+            "reason": "Product reviews and demonstrations"
+          },
+          {
+            "channel": "Email Marketing",
+            "reason": "Direct communication with interested customers"
+          }
+        ]
+      },
+      "messaging_recommendations": {
+        "key_messages": [
+          "Quality you can trust",
+          "Best value for your money",
+          "Fast and reliable delivery",
+          "Customer satisfaction guaranteed"
+        ],
+        "tone_of_voice": "Friendly, helpful, trustworthy",
+        "communication_style": "Clear, benefit-focused, solution-oriented",
+        "call_to_action_recommendations": [
+          "Shop Now",
+          "Get Yours Today",
+          "Limited Time Offer",
+          "Join [X] Happy Customers"
+        ]
+      },
+      "accuracy_metrics": {
+        "confidence_score": 83.0,
+        "confidence_level": "High",
+        "personas_generated": 2,
+        "category_familiarity": "High",
+        "data_source": "Industry research and demographic analysis",
+        "recommendation_reliability": "High - Based on comprehensive demographic and psychographic research"
+      },
+      "generated_at": "2025-11-24 01:14:45"
+    },
+    "status": "completed"
+  },
+  "module_8_marketing": {
+    "marketing_strategy": {
+      "overview": {
+        "product_category": "Electronics",
+        "target_audience": {
+          "age_range": "18-45",
+          "gender": "All genders (slight male skew)",
+          "income_level": "Middle income",
+          "education": "College educated or equivalent",
+          "occupation": [
+            "Tech professionals",
+            "Students",
+            "Office workers",
+            "Entrepreneurs"
+          ]
+        },
+        "total_budget": 500.0,
+        "budget_tier": "Medium",
+        "strategy_period": "3 months (90 days)",
+        "primary_goal": "Drive sales and build brand awareness"
+      },
+      "channel_strategy": {
+        "channels": [
+          {
+            "channel": "Social Media Marketing",
+            "priority": "High",
+            "budget_allocation": "40%",
+            "platforms": [
+              "Instagram",
+              "Facebook",
+              "TikTok"
+            ],
+            "tactics": [
+              "Organic posts (daily)",
+              "Paid advertising campaigns",
+              "Stories and Reels",
+              "Community engagement",
+              "User-generated content"
+            ]
+          },
+          {
+            "channel": "Search Advertising (Google/Bing)",
+            "priority": "Medium to High",
+            "budget_allocation": "30%",
+            "tactics": [
+              "Google Shopping ads",
+              "Search keyword campaigns",
+              "Retargeting campaigns",
+              "Display network ads"
+            ]
+          },
+          {
+            "channel": "Content Marketing",
+            "priority": "Medium",
+            "budget_allocation": "15%",
+            "tactics": [
+              "Blog posts and articles",
+              "Product reviews",
+              "How-to guides",
+              "Video content",
+              "Customer testimonials"
+            ]
+          },
+          {
+            "channel": "Email Marketing",
+            "priority": "Medium",
+            "budget_allocation": "10%",
+            "tactics": [
+              "Welcome email series",
+              "Abandoned cart recovery",
+              "Product recommendations",
+              "Seasonal promotions",
+              "Customer loyalty program"
+            ]
+          }
+        ],
+        "focus": "Multi-channel approach with emphasis on social media and paid advertising"
+      },
+      "content_strategy": {
+        "content_pillars": [
+          "Product education",
+          "Customer success stories",
+          "Industry trends",
+          "Behind-the-scenes",
+          "Promotional content"
+        ],
+        "content_types": [
+          "Product reviews",
+          "Comparison videos",
+          "Tech specs",
+          "Unboxing videos"
+        ],
+        "posting_frequency": {
+          "Instagram": "1-2 posts per day + Stories",
+          "Facebook": "1 post per day",
+          "TikTok": "3-5 videos per week",
+          "Blog": "2-3 articles per month"
+        },
+        "content_themes": [
+          "Product features",
+          "Customer stories",
+          "How-to guides",
+          "Tips and tricks"
+        ]
+      },
+      "paid_advertising": {
+        "total_budget": "$175.00",
+        "daily_budget": "$1.94",
+        "platforms": {
+          "Facebook/Instagram Ads": {
+            "budget": "$87.50",
+            "campaign_types": [
+              "Traffic campaigns",
+              "Conversion campaigns",
+              "Dynamic product ads",
+              "Retargeting campaigns"
+            ],
+            "targeting": {
+              "age": "18-45",
+              "location": "Pakistan (primary), expand based on performance",
+              "interests": [
+                "Technology",
+                "Gaming",
+                "Photography",
+                "Innovation"
+              ],
+              "behaviors": "Online shoppers, engaged shoppers",
+              "custom_audiences": [
+                "Website visitors",
+                "Email subscribers",
+                "Cart abandoners",
+                "Past purchasers"
+              ]
+            }
+          },
+          "Google Ads": {
+            "budget": "$87.50",
+            "campaign_types": [
+              "Google Shopping",
+              "Search ads",
+              "Display remarketing"
+            ]
+          }
+        },
+        "optimization_tips": [
+          "Start with small daily budgets and scale winners",
+          "A/B test ad creatives and copy",
+          "Use retargeting for abandoned carts",
+          "Track ROAS (Return on Ad Spend) closely",
+          "Optimize for conversions, not just clicks"
+        ]
+      },
+      "social_media_strategy": {
+        "platforms": {
+          "Instagram": {
+            "priority": "Primary",
+            "goals": [
+              "Brand awareness",
+              "Product discovery",
+              "Sales"
+            ],
+            "tactics": [
+              "Feed posts showcasing products",
+              "Stories with behind-the-scenes content",
+              "Reels for viral reach",
+              "Instagram Shopping integration",
+              "Influencer collaborations",
+              "User-generated content campaigns"
+            ],
+            "hashtag_strategy": "Mix of branded, category, and trending hashtags (15-20 per post)"
+          },
+          "Facebook": {
+            "priority": "Primary",
+            "goals": [
+              "Community building",
+              "Customer service",
+              "Sales"
+            ],
+            "tactics": [
+              "Create business page with complete info",
+              "Join and engage in relevant groups",
+              "Facebook Shop setup",
+              "Live videos for product launches",
+              "Customer testimonials and reviews",
+              "Facebook Marketplace listings"
+            ]
+          },
+          "TikTok": {
+            "priority": "Secondary",
+            "goals": [
+              "Viral reach",
+              "Younger audience",
+              "Brand awareness"
+            ],
+            "tactics": [
+              "Entertaining product demonstrations",
+              "Trend participation",
+              "Educational content",
+              "Collaboration with TikTok creators"
+            ]
+          }
+        },
+        "engagement_strategy": [
+          "Respond to all comments within 24 hours",
+          "Engage with followers by liking/commenting",
+          "Run polls and questions in Stories",
+          "Host giveaways and contests",
+          "Share user-generated content"
+        ]
+      },
+      "influencer_marketing": {
+        "influencer_tiers": [
+          {
+            "tier": "Micro influencers (10K-100K)",
+            "quantity": "5-10 influencers",
+            "approach": "Paid collaborations + product gifting",
+            "expected_cost": "$50-200 per post",
+            "benefits": "Higher engagement rates, niche audiences"
+          },
+          {
+            "tier": "Nano influencers (1K-10K)",
+            "quantity": "20-50 influencers",
+            "approach": "Product gifting + affiliate commissions",
+            "expected_cost": "Product costs + 10% commission",
+            "benefits": "Authentic reviews, cost-effective"
+          }
+        ],
+        "collaboration_types": [
+          "Sponsored posts and Stories",
+          "Product reviews",
+          "Unboxing videos",
+          "Giveaway partnerships",
+          "Affiliate partnerships"
+        ],
+        "selection_criteria": [
+          "Audience alignment with target market",
+          "Engagement rate > 3%",
+          "Authentic content style",
+          "Previous brand collaborations",
+          "Content quality"
+        ]
+      },
+      "email_marketing": {
+        "email_sequences": [
+          {
+            "name": "Welcome Series",
+            "emails": 3,
+            "timeline": "Day 1, 3, 7",
+            "goals": "Introduce brand, build trust, convert"
+          },
+          {
+            "name": "Abandoned Cart",
+            "emails": 3,
+            "timeline": "1 hour, 24 hours, 72 hours",
+            "goals": "Recover lost sales"
+          },
+          {
+            "name": "Post-Purchase",
+            "emails": 2,
+            "timeline": "1 day, 7 days",
+            "goals": "Request review, cross-sell"
+          }
+        ],
+        "regular_campaigns": [
+          "Weekly newsletter with new products",
+          "Exclusive offers for subscribers",
+          "Seasonal promotions",
+          "Re-engagement campaigns"
+        ],
+        "list_building_tactics": [
+          "Pop-up signup forms with discount offer",
+          "Lead magnets (buying guides, checklists)",
+          "Exit-intent popups",
+          "Social media to email campaigns"
+        ],
+        "tools_recommended": [
+          "Klaviyo",
+          "ActiveCampaign"
+        ]
+      },
+      "seo_aso_strategy": {
+        "product_listing_optimization": [
+          "Use keyword-rich product titles",
+          "Write detailed, benefit-focused descriptions",
+          "Include high-quality images (minimum 5)",
+          "Add video demonstrations",
+          "Encourage customer reviews",
+          "Use all available product attributes/tags",
+          "Optimize for mobile viewing"
+        ],
+        "keyword_strategy": [
+          "Research top keywords for Electronics products",
+          "Use long-tail keywords for less competition",
+          "Include keywords in title, description, tags",
+          "Monitor competitor keywords",
+          "Update keywords based on performance"
+        ],
+        "review_strategy": [
+          "Request reviews from satisfied customers",
+          "Respond to all reviews (positive and negative)",
+          "Address negative reviews professionally",
+          "Use review insights for improvement",
+          "Showcase positive reviews in marketing"
+        ]
+      },
+      "timeline": [
+        {
+          "phase": "Month 1: Launch & Foundation",
+          "weeks": "1-4",
+          "objectives": [
+            "Set up all marketing channels",
+            "Create initial content library",
+            "Launch social media presence",
+            "Begin organic posting",
+            "Set up email capture"
+          ],
+          "key_activities": [
+            "Week 1: Channel setup and branding",
+            "Week 2: Content creation and scheduling",
+            "Week 3: Launch campaigns and paid ads",
+            "Week 4: Monitor and optimize"
+          ]
+        },
+        {
+          "phase": "Month 2: Growth & Optimization",
+          "weeks": "5-8",
+          "objectives": [
+            "Scale what's working",
+            "Optimize underperforming channels",
+            "Build email list",
+            "Increase social following",
+            "Launch influencer partnerships"
+          ],
+          "key_activities": [
+            "Week 5-6: Launch influencer collaborations",
+            "Week 7: Run first major promotion",
+            "Week 8: Analyze results and adjust strategy"
+          ]
+        },
+        {
+          "phase": "Month 3: Scaling & Retention",
+          "weeks": "9-12",
+          "objectives": [
+            "Scale successful campaigns",
+            "Focus on customer retention",
+            "Build brand loyalty",
+            "Prepare for next quarter"
+          ],
+          "key_activities": [
+            "Week 9-10: Scale winning ads",
+            "Week 11: Launch loyalty program",
+            "Week 12: Comprehensive analysis and planning"
+          ]
+        }
+      ],
+      "kpis": {
+        "sales_metrics": [
+          {
+            "metric": "Total Revenue",
+            "target": "Track baseline, aim for growth"
+          },
+          {
+            "metric": "Conversion Rate",
+            "target": "2-5% (varies by platform)"
+          },
+          {
+            "metric": "Average Order Value",
+            "target": "Track and optimize"
+          },
+          {
+            "metric": "Customer Acquisition Cost (CAC)",
+            "target": "< 30% of order value"
+          }
+        ],
+        "marketing_metrics": [
+          {
+            "metric": "Website/Store Traffic",
+            "target": "Increase 100% MoM"
+          },
+          {
+            "metric": "Social Media Followers",
+            "target": "+500-1000 per month"
+          },
+          {
+            "metric": "Email List Growth",
+            "target": "+200-500 subscribers per month"
+          },
+          {
+            "metric": "Engagement Rate",
+            "target": "> 3% on social media"
+          },
+          {
+            "metric": "ROAS (Return on Ad Spend)",
+            "target": "> 3:1"
+          }
+        ],
+        "content_metrics": [
+          {
+            "metric": "Content Reach",
+            "target": "Track and grow"
+          },
+          {
+            "metric": "Click-Through Rate",
+            "target": "> 2%"
+          },
+          {
+            "metric": "Video Views",
+            "target": "Increase monthly"
+          }
+        ]
+      },
+      "action_items": [
+        {
+          "priority": "High",
+          "action": "Set up social media business accounts",
+          "timeline": "Week 1",
+          "owner": "Marketing team"
+        },
+        {
+          "priority": "High",
+          "action": "Create product photography and videos",
+          "timeline": "Week 1-2",
+          "owner": "Content team"
+        },
+        {
+          "priority": "High",
+          "action": "Set up Facebook/Instagram Ads account",
+          "timeline": "Week 1",
+          "owner": "Marketing team"
+        },
+        {
+          "priority": "Medium",
+          "action": "Create content calendar for 30 days",
+          "timeline": "Week 2",
+          "owner": "Content team"
+        },
+        {
+          "priority": "Medium",
+          "action": "Research and contact micro-influencers",
+          "timeline": "Week 2-3",
+          "owner": "Marketing team"
+        },
+        {
+          "priority": "Medium",
+          "action": "Set up email marketing platform",
+          "timeline": "Week 2",
+          "owner": "Marketing team"
+        },
+        {
+          "priority": "Low",
+          "action": "Create blog content plan",
+          "timeline": "Week 3-4",
+          "owner": "Content team"
+        }
+      ],
+      "accuracy_metrics": {
+        "confidence_score": 90.0,
+        "confidence_level": "High",
+        "budget_tier": "Medium",
+        "strategy_completeness": "100%",
+        "data_backed_recommendations": true,
+        "recommendation_reliability": "High - Comprehensive Medium-tier strategy with proven tactics",
+        "implementation_readiness": "Ready to execute"
+      },
+      "generated_at": "2025-11-24 01:14:45"
+    },
+    "status": "completed"
+  }
+}

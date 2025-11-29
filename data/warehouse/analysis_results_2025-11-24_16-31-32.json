@@ -1,0 +1,1722 @@
+{
+  "status": "success",
+  "timestamp": "2025-11-24 16:31:31",
+  "input": {
+    "category": "Sports",
+    "product_name": "Yoga Mat",
+    "price": 49.0,
+    "budget": 1000.0,
+    "quantity": 100,
+    "target_market": "pakistan",
+    "marketing_budget": 250.0
+  },
+  "module_1_scraper": {
+    "total_products_scraped": 100,
+    "platforms": [
+      "amazon",
+      "daraz"
+    ],
+    "status": "completed"
+  },
+  "module_2_trends": {
+    "category_trends": {
+      "category": "Sports",
+      "total_products": 487,
+      "average_price": 12746.319281314169,
+      "price_range": {
+        "min": 12.04,
+        "max": 49923.77,
+        "median": 2079.03
+      },
+      "average_rating": 4.096714579055441,
+      "total_reviews": 984819,
+      "top_brands": [
+        {
+          "name": "Brand G",
+          "count": 29
+        },
+        {
+          "name": "Brand F",
+          "count": 25
+        },
+        {
+          "name": "Brand O",
+          "count": 25
+        },
+        {
+          "name": "Brand P",
+          "count": 24
+        },
+        {
+          "name": "Brand E",
+          "count": 24
+        },
+        {
+          "name": "Brand Q",
+          "count": 24
+        },
+        {
+          "name": "Brand M",
+          "count": 23
+        },
+        {
+          "name": "Brand V",
+          "count": 23
+        },
+        {
+          "name": "Brand T",
+          "count": 21
+        },
+        {
+          "name": "Brand D",
+          "count": 21
+        }
+      ],
+      "top_sellers": [
+        {
+          "name": "Daraz Seller 61",
+          "count": 13
+        },
+        {
+          "name": "Daraz Seller 89",
+          "count": 10
+        },
+        {
+          "name": "Daraz Seller 96",
+          "count": 9
+        },
+        {
+          "name": "Seller 94",
+          "count": 8
+        },
+        {
+          "name": "Seller 64",
+          "count": 8
+        },
+        {
+          "name": "Daraz Seller 59",
+          "count": 8
+        },
+        {
+          "name": "Daraz Seller 4",
+          "count": 6
+        },
+        {
+          "name": "Seller 28",
+          "count": 6
+        },
+        {
+          "name": "Seller 41",
+          "count": 6
+        },
+        {
+          "name": "Daraz Seller 80",
+          "count": 6
+        }
+      ],
+      "platform_distribution": {
+        "daraz": 253,
+        "amazon": 234
+      },
+      "price_segments": {
+        "Budget": {
+          "count": 320,
+          "avg_price": 2347.9396874999998,
+          "avg_rating": 4.1375
+        },
+        "Mid-range": {
+          "count": 89,
+          "avg_price": 25132.391348314606,
+          "avg_rating": 3.935955056179775
+        },
+        "Premium": {
+          "count": 78,
+          "avg_price": 41273.512307692305,
+          "avg_rating": 4.112820512820513
+        }
+      },
+      "discount_analysis": {
+        "products_with_discount": 290,
+        "discount_percentage": 59.5,
+        "average_discount": 53.5651724137931,
+        "max_discount": 97.0,
+        "median_discount": 56.3
+      },
+      "availability analysis": {
+        "distribution": {
+          "In Stock": 173,
+          "Pre-order": 158,
+          "Limited Stock": 86,
+          "Out of Stock": 70
+        },
+        "in_stock_percentage": 35.5
+      },
+      "accuracy_metrics": {
+        "accuracy_score": 97.5,
+        "confidence_level": "High",
+        "sample_size": 487,
+        "data_quality_score": 100,
+        "reliability": "Reliable",
+        "notes": [
+          "Good sample size - results are statistically significant"
+        ]
+      },
+      "analyzed_at": "2025-11-24 16:31:32"
+    },
+    "demand_forecast": {
+      "category": "Sports",
+      "forecast_period_days": 30,
+      "current_demand_score": 92.77,
+      "demand_level": "High",
+      "weekly_forecast": [
+        {
+          "week": 1,
+          "estimated_demand": 85.6,
+          "confidence": 95
+        },
+        {
+          "week": 2,
+          "estimated_demand": 93.67,
+          "confidence": 90
+        },
+        {
+          "week": 3,
+          "estimated_demand": 103.87,
+          "confidence": 85
+        },
+        {
+          "week": 4,
+          "estimated_demand": 102.81,
+          "confidence": 80
+        }
+      ],
+      "key_metrics": {
+        "average_rating": 4.1,
+        "average_reviews": 2022.0,
+        "total_products": 487
+      },
+      "recommendations": [
+        "Strong market demand detected - excellent opportunity to enter",
+        "Consider competitive pricing to capture market share",
+        "Invest in marketing to capitalize on high demand",
+        "Ensure adequate inventory to meet demand"
+      ],
+      "forecasted_at": "2025-11-24 16:31:32",
+      "accuracy_metrics": {
+        "forecast_confidence": 95,
+        "confidence_level": "High",
+        "model_type": "Statistical Analysis",
+        "data_points": 487,
+        "prediction_reliability": "Highly reliable - strong data support",
+        "margin_of_error": "±5%"
+      }
+    },
+    "trending_products": [
+      {
+        "title": "Fashion Product 9",
+        "platform": "amazon",
+        "category": "Books",
+        "price": 23.91,
+        "rating": 4.9,
+        "reviews": 3808,
+        "discount": 94.8,
+        "trending_score": 0.9237536589943582,
+        "url": "https://amazon.com/product/9"
+      },
+      {
+        "title": "Fashion Product 9",
+        "platform": "amazon",
+        "category": "Books",
+        "price": 23.91,
+        "rating": 4.9,
+        "reviews": 3808,
+        "discount": 94.8,
+        "trending_score": 0.9237536589943582,
+        "url": "https://amazon.com/product/9"
+      },
+      {
+        "title": "Fashion Product 28",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 51.04,
+        "rating": 5.0,
+        "reviews": 3765,
+        "discount": 89.2,
+        "trending_score": 0.9146130612765129,
+        "url": "https://amazon.com/product/28"
+      },
+      {
+        "title": "Fashion Product 28",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 51.04,
+        "rating": 5.0,
+        "reviews": 3765,
+        "discount": 89.2,
+        "trending_score": 0.9146130612765129,
+        "url": "https://amazon.com/product/28"
+      },
+      {
+        "title": "Fashion Product 48",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 16.96,
+        "rating": 4.8,
+        "reviews": 3181,
+        "discount": 95.6,
+        "trending_score": 0.9127579562669319,
+        "url": "https://amazon.com/product/48"
+      },
+      {
+        "title": "Fashion Product 48",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 16.96,
+        "rating": 4.8,
+        "reviews": 3181,
+        "discount": 95.6,
+        "trending_score": 0.9127579562669319,
+        "url": "https://amazon.com/product/48"
+      },
+      {
+        "title": "Home Product 9",
+        "platform": "amazon",
+        "category": "Books",
+        "price": 24.59,
+        "rating": 5.0,
+        "reviews": 2027,
+        "discount": 92.3,
+        "trending_score": 0.9053441609413322,
+        "url": "https://amazon.com/product/9"
+      },
+      {
+        "title": "Home Product 9",
+        "platform": "amazon",
+        "category": "Books",
+        "price": 24.59,
+        "rating": 5.0,
+        "reviews": 2027,
+        "discount": 92.3,
+        "trending_score": 0.9053441609413322,
+        "url": "https://amazon.com/product/9"
+      },
+      {
+        "title": "Electronics Item 50",
+        "platform": "daraz",
+        "category": "Home",
+        "price": 5594.25,
+        "rating": 4.9,
+        "reviews": 2732,
+        "discount": 90.6,
+        "trending_score": 0.9011946555778421,
+        "url": "https://daraz.pk/product/50"
+      },
+      {
+        "title": "Electronics Item 50",
+        "platform": "daraz",
+        "category": "Home",
+        "price": 5594.25,
+        "rating": 4.9,
+        "reviews": 2732,
+        "discount": 90.6,
+        "trending_score": 0.9011946555778421,
+        "url": "https://daraz.pk/product/50"
+      }
+    ],
+    "status": "completed"
+  },
+  "module_3_competitors": {
+    "total_competitors": 7,
+    "top_competitors": [
+      {
+        "seller_name": "Seller 68",
+        "product_count": 2,
+        "average_price": 57.62,
+        "price_range": {
+          "min": 57.62,
+          "max": 57.62
+        },
+        "average_rating": 4.7,
+        "total_reviews": 5898,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 88.8,
+        "competitive_score": 62.5
+      },
+      {
+        "seller_name": "Seller 49",
+        "product_count": 2,
+        "average_price": 58.26,
+        "price_range": {
+          "min": 58.26,
+          "max": 58.26
+        },
+        "average_rating": 4.4,
+        "total_reviews": 3384,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 80.1,
+        "competitive_score": 61.0
+      },
+      {
+        "seller_name": "Seller 28",
+        "product_count": 2,
+        "average_price": 43.19,
+        "price_range": {
+          "min": 43.19,
+          "max": 43.19
+        },
+        "average_rating": 4.3,
+        "total_reviews": 4490,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 17.4,
+        "competitive_score": 60.5
+      },
+      {
+        "seller_name": "Seller 94",
+        "product_count": 2,
+        "average_price": 56.66,
+        "price_range": {
+          "min": 56.66,
+          "max": 56.66
+        },
+        "average_rating": 3.9,
+        "total_reviews": 9638,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 87.8,
+        "competitive_score": 58.5
+      },
+      {
+        "seller_name": "Seller 61",
+        "product_count": 2,
+        "average_price": 41.27,
+        "price_range": {
+          "min": 41.27,
+          "max": 41.27
+        },
+        "average_rating": 3.8,
+        "total_reviews": 8670,
+        "platforms": [
+          "amazon"
+        ],
+        "average_discount": 88.0,
+        "competitive_score": 58.0
+      }
+    ],
+    "competitive_analysis": {
+      "category": "Sports",
+      "user_price": 49.0,
+      "market_statistics": {
+        "average_price": 53.13,
+        "median_price": 56.66,
+        "price_range": {
+          "min": 41.27,
+          "max": 60.53
+        },
+        "average_rating": 4.06
+      },
+      "price_positioning": "Mid-range",
+      "price_competitiveness": "Competitive (below market average)",
+      "top_competitors": [
+        {
+          "seller_name": "Seller 68",
+          "product_count": 2,
+          "average_price": 57.62,
+          "price_range": {
+            "min": 57.62,
+            "max": 57.62
+          },
+          "average_rating": 4.7,
+          "total_reviews": 5898,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 88.8,
+          "competitive_score": 62.5
+        },
+        {
+          "seller_name": "Seller 49",
+          "product_count": 2,
+          "average_price": 58.26,
+          "price_range": {
+            "min": 58.26,
+            "max": 58.26
+          },
+          "average_rating": 4.4,
+          "total_reviews": 3384,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 80.1,
+          "competitive_score": 61.0
+        },
+        {
+          "seller_name": "Seller 28",
+          "product_count": 2,
+          "average_price": 43.19,
+          "price_range": {
+            "min": 43.19,
+            "max": 43.19
+          },
+          "average_rating": 4.3,
+          "total_reviews": 4490,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 17.4,
+          "competitive_score": 60.5
+        },
+        {
+          "seller_name": "Seller 94",
+          "product_count": 2,
+          "average_price": 56.66,
+          "price_range": {
+            "min": 56.66,
+            "max": 56.66
+          },
+          "average_rating": 3.9,
+          "total_reviews": 9638,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 87.8,
+          "competitive_score": 58.5
+        },
+        {
+          "seller_name": "Seller 61",
+          "product_count": 2,
+          "average_price": 41.27,
+          "price_range": {
+            "min": 41.27,
+            "max": 41.27
+          },
+          "average_rating": 3.8,
+          "total_reviews": 8670,
+          "platforms": [
+            "amazon"
+          ],
+          "average_discount": 88.0,
+          "competitive_score": 58.0
+        }
+      ],
+      "market_saturation": {
+        "level": "Medium",
+        "competitor_count": 7,
+        "description": "Moderate competition - balanced market"
+      },
+      "competitive_advantages": [
+        "Multi-platform strategy could provide advantage",
+        "Market relies heavily on discounts - opportunity for value positioning"
+      ],
+      "recommendations": [
+        "Monitor competitor pricing and adjust strategy quarterly",
+        "Differentiate through superior customer service and product quality"
+      ],
+      "accuracy_metrics": {
+        "accuracy_score": 82.0,
+        "confidence_level": "High",
+        "competitors_analyzed": 7,
+        "data_completeness": 100.0,
+        "analysis_reliability": "High - Comprehensive competitive data available",
+        "recommendation": "Analysis is reliable - confidence in competitive insights"
+      },
+      "analyzed_at": "2025-11-24 16:31:32"
+    },
+    "status": "completed"
+  },
+  "module_4_suppliers": {
+    "recommended_suppliers": [
+      {
+        "name": "DHgate",
+        "type": "Wholesale Platform",
+        "region": "China",
+        "moq_range": [
+          1,
+          1000
+        ],
+        "price_tier": "Low",
+        "quality_rating": 3.8,
+        "reliability_score": 4.0,
+        "shipping_time_days": [
+          10,
+          25
+        ],
+        "specialty_categories": [
+          "Electronics",
+          "Fashion",
+          "Sports"
+        ],
+        "contact": "dhgate.com",
+        "recommendation_score": 74.28,
+        "estimated_unit_cost": 5.85,
+        "estimated_total_cost": 585.0,
+        "fits_budget": true,
+        "pros": [
+          "Low cost sourcing (Low price tier)",
+          "Low MOQ (minimum 1 units)"
+        ],
+        "cons": [
+          "Quality concerns (rating: 3.8/5)",
+          "International shipping complexities"
+        ]
+      }
+    ],
+    "sourcing_strategy": {
+      "product_category": "Sports",
+      "recommended_suppliers": [
+        {
+          "name": "DHgate",
+          "type": "Wholesale Platform",
+          "region": "China",
+          "moq_range": [
+            1,
+            1000
+          ],
+          "price_tier": "Low",
+          "quality_rating": 3.8,
+          "reliability_score": 4.0,
+          "shipping_time_days": [
+            10,
+            25
+          ],
+          "specialty_categories": [
+            "Electronics",
+            "Fashion",
+            "Sports"
+          ],
+          "contact": "dhgate.com",
+          "recommendation_score": 74.28,
+          "estimated_unit_cost": 5.85,
+          "estimated_total_cost": 585.0,
+          "fits_budget": true,
+          "pros": [
+            "Low cost sourcing (Low price tier)",
+            "Low MOQ (minimum 1 units)"
+          ],
+          "cons": [
+            "Quality concerns (rating: 3.8/5)",
+            "International shipping complexities"
+          ]
+        }
+      ],
+      "business_model_recommendations": {
+        "recommended_model": "Small Batch Wholesale",
+        "reason": "Moderate investment - buy small wholesale batches for better margins"
+      },
+      "sourcing_approach": "Primary supplier with backup supplier, moderate orders",
+      "quality_control_tips": [
+        "Request product samples before bulk order",
+        "Conduct third-party quality inspection",
+        "Start with smaller test orders",
+        "Review supplier certifications and compliance",
+        "Check customer reviews and ratings"
+      ],
+      "negotiation_tips": [
+        "For orders above 100 units, negotiate 10-15% bulk discount",
+        "Request better payment terms (e.g., 30% deposit, 70% on delivery)",
+        "Ask for free samples or reduced sample costs",
+        "Negotiate shipping costs for large orders",
+        "Build long-term relationship for better terms"
+      ],
+      "risk_mitigation": [
+        "Use secure payment methods (escrow, trade assurance)",
+        "Purchase shipping insurance",
+        "Verify supplier credentials and business license",
+        "Start with small test batch before scaling",
+        "Have backup suppliers identified"
+      ],
+      "generated_at": "2025-11-24 16:31:32"
+    },
+    "accuracy_metrics": {
+      "confidence_score": 72.0,
+      "confidence_level": "Medium",
+      "suppliers_found": 1,
+      "data_completeness": "100%",
+      "recommendation_reliability": "Medium - Limited options but viable suppliers found",
+      "note": "Recommendations based on MOQ compatibility and category specialization"
+    },
+    "status": "completed"
+  },
+  "module_5_pricing": {
+    "product_cost": 5.85,
+    "platform_comparison": [
+      {
+        "platform": "daraz",
+        "platform_display_name": "Daraz",
+        "total_cost": 8.37,
+        "profit": 40.63,
+        "profit_margin": 82.93,
+        "roi": 485.74,
+        "recommendation": "Recommended"
+      },
+      {
+        "platform": "amazon",
+        "platform_display_name": "Amazon",
+        "total_cost": 12.23,
+        "profit": 36.77,
+        "profit_margin": 75.03,
+        "roi": 300.5,
+        "recommendation": "Recommended"
+      }
+    ],
+    "amazon_pricing": {
+      "recommended_price": 17.48,
+      "cost_breakdown": {
+        "product_cost": 5.85,
+        "shipping_cost": 0.585,
+        "packaging_cost": 0.2925,
+        "marketing_cost": 0.8775,
+        "referral_fee": 1.629642857142857,
+        "fulfillment_fee": 3.0,
+        "tax": 0,
+        "total_cost": 12.234642857142857
+      },
+      "profit": 5.24,
+      "profit_margin": 30.0,
+      "roi": 42.86,
+      "break_even_units": 0.0,
+      "market_comparison": {
+        "average_price": 253.20749999999998,
+        "median_price": 263.735,
+        "price_range": {
+          "min": 15.76,
+          "max": 421.15
+        },
+        "percentiles": {
+          "25th": 200.2025,
+          "75th": 358.1675
+        }
+      },
+      "pricing_recommendations": [
+        "Your price is 93.1% below market average - competitive advantage",
+        "Consider if you can maintain quality at this price point",
+        "Test pricing with A/B testing if possible",
+        "Monitor competitor pricing changes monthly",
+        "Consider psychological pricing (e.g., $19.99 vs $20.00)"
+      ],
+      "accuracy_metrics": {
+        "accuracy_score": 87.0,
+        "confidence_level": "High",
+        "market_data_available": true,
+        "pricing_method": "Cost-plus with market benchmarking",
+        "reliability": "High - Based on comprehensive market analysis",
+        "recommendation": "Monitor competitor pricing weekly"
+      },
+      "calculated_at": "2025-11-24 16:31:32"
+    },
+    "daraz_pricing": {
+      "recommended_price": 11.95,
+      "cost_breakdown": {
+        "product_cost": 5.85,
+        "shipping_cost": 0.585,
+        "packaging_cost": 0.2925,
+        "marketing_cost": 0.8775,
+        "commission": 0.5432142857142858,
+        "payment_gateway_fee": 0.21728571428571428,
+        "tax": 0,
+        "total_cost": 8.365499999999999
+      },
+      "profit": 3.59,
+      "profit_margin": 30.0,
+      "roi": 42.86,
+      "break_even_units": 0.0,
+      "market_comparison": {
+        "average_price": 27296.95933333334,
+        "median_price": 27013.75,
+        "price_range": {
+          "min": 1076.38,
+          "max": 49923.77
+        },
+        "percentiles": {
+          "25th": 17772.68,
+          "75th": 38064.725
+        }
+      },
+      "pricing_recommendations": [
+        "Your price is 100.0% below market average - competitive advantage",
+        "Consider if you can maintain quality at this price point",
+        "Test pricing with A/B testing if possible",
+        "Monitor competitor pricing changes monthly",
+        "Consider psychological pricing (e.g., $19.99 vs $20.00)"
+      ],
+      "accuracy_metrics": {
+        "accuracy_score": 87.0,
+        "confidence_level": "High",
+        "market_data_available": true,
+        "pricing_method": "Cost-plus with market benchmarking",
+        "reliability": "High - Based on comprehensive market analysis",
+        "recommendation": "Monitor competitor pricing weekly"
+      },
+      "calculated_at": "2025-11-24 16:31:32"
+    },
+    "status": "completed"
+  },
+  "module_6_platforms": {
+    "recommended_platforms": [
+      {
+        "platform": "daraz",
+        "platform_name": "Daraz",
+        "recommendation_score": 95,
+        "suitability_rating": "Excellent",
+        "fee_structure": {
+          "commission": 0.05,
+          "payment_gateway": 0.02
+        },
+        "pros": [
+          "Leading platform in Pakistan and South Asia",
+          "Lower fees compared to international platforms",
+          "Cash on Delivery widely accepted",
+          "Local language and currency support",
+          "Growing customer base in region"
+        ],
+        "cons": [
+          "Limited to Pakistan and select Asian markets",
+          "Smaller customer base than global platforms",
+          "Payment processing can be slower",
+          "Less sophisticated seller tools"
+        ],
+        "best_for": [
+          "Pakistan and South Asian markets",
+          "Fashion and apparel",
+          "Beauty and personal care",
+          "Affordable products under Rs. 10,000",
+          "Cash on delivery preferred customers"
+        ],
+        "market_insights": {
+          "total_products": 15,
+          "average_price": 27296.95933333334,
+          "average_rating": 3.7933333333333334,
+          "competition_level": "Low"
+        },
+        "setup_difficulty": {
+          "level": "Easy to Moderate",
+          "time_to_setup": "3-5 days",
+          "requirements": [
+            "CNIC/Business registration",
+            "Bank account",
+            "Contact information",
+            "Product listings"
+          ]
+        },
+        "estimated_reach": {
+          "monthly_visitors": "50 million",
+          "active_customers": "10 million"
+        },
+        "accuracy_metrics": {
+          "confidence_score": 82.5,
+          "confidence_level": "High",
+          "data_backed": true,
+          "recommendation_strength": "Good - Recommended with available data support",
+          "validation_note": "Based on market data analysis"
+        }
+      },
+      {
+        "platform": "amazon",
+        "platform_name": "Amazon",
+        "recommendation_score": 45,
+        "suitability_rating": "Fair",
+        "fee_structure": {
+          "referral_fee": 0.15,
+          "closing_fee": 0,
+          "fulfillment_fee": "variable"
+        },
+        "pros": [
+          "Massive global reach and customer base",
+          "Trusted brand with high conversion rates",
+          "FBA (Fulfillment by Amazon) handles logistics",
+          "Prime membership drives sales",
+          "Advanced analytics and seller tools"
+        ],
+        "cons": [
+          "High fees (15-20% total)",
+          "Intense competition",
+          "Strict policies and potential account suspension",
+          "Complex setup for international sellers",
+          "Requires inventory for FBA"
+        ],
+        "best_for": [
+          "Premium branded products",
+          "Electronics and gadgets",
+          "Books and media",
+          "International market expansion",
+          "Products with consistent demand"
+        ],
+        "market_insights": {
+          "total_products": 8,
+          "average_price": 253.20749999999998,
+          "average_rating": 4.125,
+          "competition_level": "Low"
+        },
+        "setup_difficulty": {
+          "level": "Moderate to Difficult",
+          "time_to_setup": "1-2 weeks",
+          "requirements": [
+            "Business registration",
+            "Tax information",
+            "Bank account",
+            "Product identification (UPC/EAN)",
+            "Identity verification"
+          ]
+        },
+        "estimated_reach": {
+          "monthly_visitors": "Limited",
+          "active_customers": "Limited"
+        },
+        "accuracy_metrics": {
+          "confidence_score": 72.5,
+          "confidence_level": "Medium",
+          "data_backed": true,
+          "recommendation_strength": "Good - Recommended with available data support",
+          "validation_note": "Based on market data analysis"
+        }
+      }
+    ],
+    "multi_platform_strategy": {
+      "product_category": "Sports",
+      "primary_platform": {
+        "platform": "daraz",
+        "platform_name": "Daraz",
+        "recommendation_score": 95,
+        "suitability_rating": "Excellent",
+        "fee_structure": {
+          "commission": 0.05,
+          "payment_gateway": 0.02
+        },
+        "pros": [
+          "Leading platform in Pakistan and South Asia",
+          "Lower fees compared to international platforms",
+          "Cash on Delivery widely accepted",
+          "Local language and currency support",
+          "Growing customer base in region"
+        ],
+        "cons": [
+          "Limited to Pakistan and select Asian markets",
+          "Smaller customer base than global platforms",
+          "Payment processing can be slower",
+          "Less sophisticated seller tools"
+        ],
+        "best_for": [
+          "Pakistan and South Asian markets",
+          "Fashion and apparel",
+          "Beauty and personal care",
+          "Affordable products under Rs. 10,000",
+          "Cash on delivery preferred customers"
+        ],
+        "market_insights": {
+          "total_products": 15,
+          "average_price": 27296.95933333334,
+          "average_rating": 3.7933333333333334,
+          "competition_level": "Low"
+        },
+        "setup_difficulty": {
+          "level": "Easy to Moderate",
+          "time_to_setup": "3-5 days",
+          "requirements": [
+            "CNIC/Business registration",
+            "Bank account",
+            "Contact information",
+            "Product listings"
+          ]
+        },
+        "estimated_reach": {
+          "monthly_visitors": "50 million",
+          "active_customers": "10 million"
+        },
+        "accuracy_metrics": {
+          "confidence_score": 82.5,
+          "confidence_level": "High",
+          "data_backed": true,
+          "recommendation_strength": "Good - Recommended with available data support",
+          "validation_note": "Based on market data analysis"
+        }
+      },
+      "secondary_platforms": [
+        {
+          "platform": "amazon",
+          "platform_name": "Amazon",
+          "recommendation_score": 45,
+          "suitability_rating": "Fair",
+          "fee_structure": {
+            "referral_fee": 0.15,
+            "closing_fee": 0,
+            "fulfillment_fee": "variable"
+          },
+          "pros": [
+            "Massive global reach and customer base",
+            "Trusted brand with high conversion rates",
+            "FBA (Fulfillment by Amazon) handles logistics",
+            "Prime membership drives sales",
+            "Advanced analytics and seller tools"
+          ],
+          "cons": [
+            "High fees (15-20% total)",
+            "Intense competition",
+            "Strict policies and potential account suspension",
+            "Complex setup for international sellers",
+            "Requires inventory for FBA"
+          ],
+          "best_for": [
+            "Premium branded products",
+            "Electronics and gadgets",
+            "Books and media",
+            "International market expansion",
+            "Products with consistent demand"
+          ],
+          "market_insights": {
+            "total_products": 8,
+            "average_price": 253.20749999999998,
+            "average_rating": 4.125,
+            "competition_level": "Low"
+          },
+          "setup_difficulty": {
+            "level": "Moderate to Difficult",
+            "time_to_setup": "1-2 weeks",
+            "requirements": [
+              "Business registration",
+              "Tax information",
+              "Bank account",
+              "Product identification (UPC/EAN)",
+              "Identity verification"
+            ]
+          },
+          "estimated_reach": {
+            "monthly_visitors": "Limited",
+            "active_customers": "Limited"
+          },
+          "accuracy_metrics": {
+            "confidence_score": 72.5,
+            "confidence_level": "Medium",
+            "data_backed": true,
+            "recommendation_strength": "Good - Recommended with available data support",
+            "validation_note": "Based on market data analysis"
+          }
+        }
+      ],
+      "launch_sequence": [
+        {
+          "phase": "Phase 1 (Month 1-2)",
+          "action": "Launch on Daraz",
+          "reason": "Test product-market fit on the most suitable platform",
+          "focus": "Build initial reviews and optimize listing"
+        },
+        {
+          "phase": "Phase 2 (Month 3-4)",
+          "action": "Expand to secondary platform if primary shows success",
+          "reason": "Diversify sales channels",
+          "focus": "Leverage learnings from primary platform"
+        },
+        {
+          "phase": "Phase 3 (Month 5+)",
+          "action": "Consider additional platforms based on performance",
+          "reason": "Maximize market coverage",
+          "focus": "Optimize operations across all platforms"
+        }
+      ],
+      "inventory_strategy": "Multi-platform - use centralized inventory with clear allocation per platform",
+      "pricing_strategy": {
+        "recommendation": "Platform-specific pricing",
+        "details": "Adjust prices based on fees and competition per platform",
+        "tips": [
+          "Consider platform fees when setting prices",
+          "Monitor competitor pricing on each platform",
+          "Test different price points",
+          "Account for currency differences"
+        ]
+      },
+      "marketing_allocation": {
+        "Daraz": "67.9%",
+        "Amazon": "32.1%"
+      },
+      "generated_at": "2025-11-24 16:31:32"
+    },
+    "status": "completed"
+  },
+  "module_7_audience": {
+    "audience_profile": {
+      "product_category": "sports",
+      "price_point": 49.0,
+      "primary_demographics": {
+        "age_range": "15-40",
+        "gender": "All genders",
+        "income_level": "Middle income",
+        "education": "College educated or equivalent",
+        "occupation": [
+          "Athletes",
+          "Fitness enthusiasts",
+          "Students",
+          "Active professionals"
+        ]
+      },
+      "buyer_personas": [
+        {
+          "name": "Fitness Focused",
+          "type": "Primary",
+          "age": "15 years old",
+          "occupation": "Athletes",
+          "goals": [
+            "Find quality products",
+            "Get good value",
+            "Solve specific needs"
+          ],
+          "pain_points": [
+            "Product quality concerns",
+            "Price concerns",
+            "Delivery issues"
+          ],
+          "buying_motivations": [
+            "Value for money",
+            "Affordability",
+            "Low risk purchase",
+            "Performance enhancement",
+            "Durability",
+            "Comfort"
+          ],
+          "online_behavior": {
+            "research_before_buying": "Yes - reads reviews and compares prices",
+            "social_media_usage": "High - Instagram, Facebook, TikTok",
+            "influencer_impact": "Medium to High",
+            "preferred_shopping_time": "Evenings and weekends",
+            "device_preference": "Mobile-first (70% mobile, 30% desktop)"
+          },
+          "preferred_content": [
+            "Action videos",
+            "Performance data",
+            "Athlete endorsements",
+            "How-to guides"
+          ]
+        },
+        {
+          "name": "Weekend Warrior",
+          "type": "Secondary",
+          "age": "40 years old",
+          "occupation": "Fitness enthusiasts",
+          "goals": [
+            "Find quality products",
+            "Get good value",
+            "Solve specific needs"
+          ],
+          "pain_points": [
+            "Product quality concerns",
+            "Price concerns",
+            "Delivery issues"
+          ],
+          "buying_motivations": [
+            "Value for money",
+            "Affordability",
+            "Low risk purchase",
+            "Performance enhancement",
+            "Durability",
+            "Comfort"
+          ],
+          "online_behavior": {
+            "research_before_buying": "Yes - reads reviews and compares prices",
+            "social_media_usage": "High - Instagram, Facebook, TikTok",
+            "influencer_impact": "Medium to High",
+            "preferred_shopping_time": "Evenings and weekends",
+            "device_preference": "Mobile-first (70% mobile, 30% desktop)"
+          },
+          "preferred_content": [
+            "Action videos",
+            "Performance data",
+            "Athlete endorsements",
+            "How-to guides"
+          ]
+        }
+      ],
+      "buying_behavior": {
+        "purchase_frequency": "Medium (Quarterly)",
+        "average_time_to_purchase": "1 week (performance focused)",
+        "price_sensitivity": "High - actively seeks discounts and compares prices",
+        "brand_loyalty": "Medium - brand matters but performance is key",
+        "impulse_buying_tendency": "Low to Medium - mostly planned",
+        "influenced_by": [
+          "Reviews",
+          "Social proof",
+          "Discounts",
+          "Free shipping",
+          "Influencers"
+        ]
+      },
+      "geographic_targeting": {
+        "primary_markets": [
+          "Urban areas",
+          "Tier 1 cities",
+          "Metropolitan regions"
+        ],
+        "secondary_markets": [
+          "Tier 2 cities",
+          "Suburban areas"
+        ],
+        "country_focus": "Pakistan",
+        "shipping_considerations": [
+          "Offer free shipping for orders above threshold",
+          "Partner with local courier services",
+          "Consider Cash on Delivery for Pakistan market",
+          "International shipping for premium products"
+        ]
+      },
+      "psychographics": {
+        "lifestyle": [
+          "Active",
+          "Health-focused",
+          "Goal-oriented"
+        ],
+        "values": [
+          "Quality",
+          "Value",
+          "Convenience",
+          "Authenticity",
+          "Sustainability"
+        ],
+        "interests": [
+          "Fitness",
+          "Health",
+          "Outdoor activities",
+          "Competition"
+        ],
+        "personality_traits": [
+          "Informed decision-maker",
+          "Value-seeker",
+          "Quality-conscious",
+          "Digitally savvy"
+        ]
+      },
+      "marketing_channels": {
+        "primary_channels": [
+          {
+            "channel": "Instagram",
+            "priority": "High",
+            "reason": "Visual platform, high engagement for product categories",
+            "content_type": "Product photos, Stories, Reels, Influencer partnerships"
+          },
+          {
+            "channel": "Facebook",
+            "priority": "High",
+            "reason": "Large user base, advanced targeting options",
+            "content_type": "Sponsored posts, Groups, Marketplace"
+          },
+          {
+            "channel": "Google Ads",
+            "priority": "Medium to High",
+            "reason": "Capture search intent",
+            "content_type": "Search ads, Shopping ads, Display ads"
+          }
+        ],
+        "secondary_channels": [
+          {
+            "channel": "TikTok",
+            "reason": "Growing platform for younger demographics"
+          },
+          {
+            "channel": "YouTube",
+            "reason": "Product reviews and demonstrations"
+          },
+          {
+            "channel": "Email Marketing",
+            "reason": "Direct communication with interested customers"
+          }
+        ]
+      },
+      "messaging_recommendations": {
+        "key_messages": [
+          "Quality you can trust",
+          "Best value for your money",
+          "Fast and reliable delivery",
+          "Customer satisfaction guaranteed"
+        ],
+        "tone_of_voice": "Friendly, helpful, trustworthy",
+        "communication_style": "Clear, benefit-focused, solution-oriented",
+        "call_to_action_recommendations": [
+          "Shop Now",
+          "Get Yours Today",
+          "Limited Time Offer",
+          "Join [X] Happy Customers"
+        ]
+      },
+      "accuracy_metrics": {
+        "confidence_score": 83.0,
+        "confidence_level": "High",
+        "personas_generated": 2,
+        "category_familiarity": "High",
+        "data_source": "Industry research and demographic analysis",
+        "recommendation_reliability": "High - Based on comprehensive demographic and psychographic research"
+      },
+      "generated_at": "2025-11-24 16:31:32"
+    },
+    "status": "completed"
+  },
+  "module_8_marketing": {
+    "marketing_strategy": {
+      "overview": {
+        "product_category": "Sports",
+        "target_audience": {
+          "age_range": "15-40",
+          "gender": "All genders",
+          "income_level": "Middle income",
+          "education": "College educated or equivalent",
+          "occupation": [
+            "Athletes",
+            "Fitness enthusiasts",
+            "Students",
+            "Active professionals"
+          ]
+        },
+        "total_budget": 250.0,
+        "budget_tier": "Medium",
+        "strategy_period": "3 months (90 days)",
+        "primary_goal": "Drive sales and build brand awareness"
+      },
+      "channel_strategy": {
+        "channels": [
+          {
+            "channel": "Social Media Marketing",
+            "priority": "High",
+            "budget_allocation": "40%",
+            "platforms": [
+              "Instagram",
+              "Facebook",
+              "TikTok"
+            ],
+            "tactics": [
+              "Organic posts (daily)",
+              "Paid advertising campaigns",
+              "Stories and Reels",
+              "Community engagement",
+              "User-generated content"
+            ]
+          },
+          {
+            "channel": "Search Advertising (Google/Bing)",
+            "priority": "Medium to High",
+            "budget_allocation": "30%",
+            "tactics": [
+              "Google Shopping ads",
+              "Search keyword campaigns",
+              "Retargeting campaigns",
+              "Display network ads"
+            ]
+          },
+          {
+            "channel": "Content Marketing",
+            "priority": "Medium",
+            "budget_allocation": "15%",
+            "tactics": [
+              "Blog posts and articles",
+              "Product reviews",
+              "How-to guides",
+              "Video content",
+              "Customer testimonials"
+            ]
+          },
+          {
+            "channel": "Email Marketing",
+            "priority": "Medium",
+            "budget_allocation": "10%",
+            "tactics": [
+              "Welcome email series",
+              "Abandoned cart recovery",
+              "Product recommendations",
+              "Seasonal promotions",
+              "Customer loyalty program"
+            ]
+          }
+        ],
+        "focus": "Multi-channel approach with emphasis on social media and paid advertising"
+      },
+      "content_strategy": {
+        "content_pillars": [
+          "Product education",
+          "Customer success stories",
+          "Industry trends",
+          "Behind-the-scenes",
+          "Promotional content"
+        ],
+        "content_types": [
+          "Action videos",
+          "Performance data",
+          "Athlete endorsements",
+          "How-to guides"
+        ],
+        "posting_frequency": {
+          "Instagram": "1-2 posts per day + Stories",
+          "Facebook": "1 post per day",
+          "TikTok": "3-5 videos per week",
+          "Blog": "2-3 articles per month"
+        },
+        "content_themes": [
+          "Product features",
+          "Customer stories",
+          "How-to guides",
+          "Tips and tricks"
+        ]
+      },
+      "paid_advertising": {
+        "total_budget": "$87.50",
+        "daily_budget": "$0.97",
+        "platforms": {
+          "Facebook/Instagram Ads": {
+            "budget": "$43.75",
+            "campaign_types": [
+              "Traffic campaigns",
+              "Conversion campaigns",
+              "Dynamic product ads",
+              "Retargeting campaigns"
+            ],
+            "targeting": {
+              "age": "15-40",
+              "location": "Pakistan (primary), expand based on performance",
+              "interests": [
+                "Fitness",
+                "Health",
+                "Outdoor activities",
+                "Competition"
+              ],
+              "behaviors": "Online shoppers, engaged shoppers",
+              "custom_audiences": [
+                "Website visitors",
+                "Email subscribers",
+                "Cart abandoners",
+                "Past purchasers"
+              ]
+            }
+          },
+          "Google Ads": {
+            "budget": "$43.75",
+            "campaign_types": [
+              "Google Shopping",
+              "Search ads",
+              "Display remarketing"
+            ]
+          }
+        },
+        "optimization_tips": [
+          "Start with small daily budgets and scale winners",
+          "A/B test ad creatives and copy",
+          "Use retargeting for abandoned carts",
+          "Track ROAS (Return on Ad Spend) closely",
+          "Optimize for conversions, not just clicks"
+        ]
+      },
+      "social_media_strategy": {
+        "platforms": {
+          "Instagram": {
+            "priority": "Primary",
+            "goals": [
+              "Brand awareness",
+              "Product discovery",
+              "Sales"
+            ],
+            "tactics": [
+              "Feed posts showcasing products",
+              "Stories with behind-the-scenes content",
+              "Reels for viral reach",
+              "Instagram Shopping integration",
+              "Influencer collaborations",
+              "User-generated content campaigns"
+            ],
+            "hashtag_strategy": "Mix of branded, category, and trending hashtags (15-20 per post)"
+          },
+          "Facebook": {
+            "priority": "Primary",
+            "goals": [
+              "Community building",
+              "Customer service",
+              "Sales"
+            ],
+            "tactics": [
+              "Create business page with complete info",
+              "Join and engage in relevant groups",
+              "Facebook Shop setup",
+              "Live videos for product launches",
+              "Customer testimonials and reviews",
+              "Facebook Marketplace listings"
+            ]
+          },
+          "TikTok": {
+            "priority": "Secondary",
+            "goals": [
+              "Viral reach",
+              "Younger audience",
+              "Brand awareness"
+            ],
+            "tactics": [
+              "Entertaining product demonstrations",
+              "Trend participation",
+              "Educational content",
+              "Collaboration with TikTok creators"
+            ]
+          }
+        },
+        "engagement_strategy": [
+          "Respond to all comments within 24 hours",
+          "Engage with followers by liking/commenting",
+          "Run polls and questions in Stories",
+          "Host giveaways and contests",
+          "Share user-generated content"
+        ]
+      },
+      "influencer_marketing": {
+        "influencer_tiers": [
+          {
+            "tier": "Micro influencers (10K-100K)",
+            "quantity": "5-10 influencers",
+            "approach": "Paid collaborations + product gifting",
+            "expected_cost": "$50-200 per post",
+            "benefits": "Higher engagement rates, niche audiences"
+          },
+          {
+            "tier": "Nano influencers (1K-10K)",
+            "quantity": "20-50 influencers",
+            "approach": "Product gifting + affiliate commissions",
+            "expected_cost": "Product costs + 10% commission",
+            "benefits": "Authentic reviews, cost-effective"
+          }
+        ],
+        "collaboration_types": [
+          "Sponsored posts and Stories",
+          "Product reviews",
+          "Unboxing videos",
+          "Giveaway partnerships",
+          "Affiliate partnerships"
+        ],
+        "selection_criteria": [
+          "Audience alignment with target market",
+          "Engagement rate > 3%",
+          "Authentic content style",
+          "Previous brand collaborations",
+          "Content quality"
+        ]
+      },
+      "email_marketing": {
+        "email_sequences": [
+          {
+            "name": "Welcome Series",
+            "emails": 3,
+            "timeline": "Day 1, 3, 7",
+            "goals": "Introduce brand, build trust, convert"
+          },
+          {
+            "name": "Abandoned Cart",
+            "emails": 3,
+            "timeline": "1 hour, 24 hours, 72 hours",
+            "goals": "Recover lost sales"
+          },
+          {
+            "name": "Post-Purchase",
+            "emails": 2,
+            "timeline": "1 day, 7 days",
+            "goals": "Request review, cross-sell"
+          }
+        ],
+        "regular_campaigns": [
+          "Weekly newsletter with new products",
+          "Exclusive offers for subscribers",
+          "Seasonal promotions",
+          "Re-engagement campaigns"
+        ],
+        "list_building_tactics": [
+          "Pop-up signup forms with discount offer",
+          "Lead magnets (buying guides, checklists)",
+          "Exit-intent popups",
+          "Social media to email campaigns"
+        ],
+        "tools_recommended": [
+          "Klaviyo",
+          "ActiveCampaign"
+        ]
+      },
+      "seo_aso_strategy": {
+        "product_listing_optimization": [
+          "Use keyword-rich product titles",
+          "Write detailed, benefit-focused descriptions",
+          "Include high-quality images (minimum 5)",
+          "Add video demonstrations",
+          "Encourage customer reviews",
+          "Use all available product attributes/tags",
+          "Optimize for mobile viewing"
+        ],
+        "keyword_strategy": [
+          "Research top keywords for Sports products",
+          "Use long-tail keywords for less competition",
+          "Include keywords in title, description, tags",
+          "Monitor competitor keywords",
+          "Update keywords based on performance"
+        ],
+        "review_strategy": [
+          "Request reviews from satisfied customers",
+          "Respond to all reviews (positive and negative)",
+          "Address negative reviews professionally",
+          "Use review insights for improvement",
+          "Showcase positive reviews in marketing"
+        ]
+      },
+      "timeline": [
+        {
+          "phase": "Month 1: Launch & Foundation",
+          "weeks": "1-4",
+          "objectives": [
+            "Set up all marketing channels",
+            "Create initial content library",
+            "Launch social media presence",
+            "Begin organic posting",
+            "Set up email capture"
+          ],
+          "key_activities": [
+            "Week 1: Channel setup and branding",
+            "Week 2: Content creation and scheduling",
+            "Week 3: Launch campaigns and paid ads",
+            "Week 4: Monitor and optimize"
+          ]
+        },
+        {
+          "phase": "Month 2: Growth & Optimization",
+          "weeks": "5-8",
+          "objectives": [
+            "Scale what's working",
+            "Optimize underperforming channels",
+            "Build email list",
+            "Increase social following",
+            "Launch influencer partnerships"
+          ],
+          "key_activities": [
+            "Week 5-6: Launch influencer collaborations",
+            "Week 7: Run first major promotion",
+            "Week 8: Analyze results and adjust strategy"
+          ]
+        },
+        {
+          "phase": "Month 3: Scaling & Retention",
+          "weeks": "9-12",
+          "objectives": [
+            "Scale successful campaigns",
+            "Focus on customer retention",
+            "Build brand loyalty",
+            "Prepare for next quarter"
+          ],
+          "key_activities": [
+            "Week 9-10: Scale winning ads",
+            "Week 11: Launch loyalty program",
+            "Week 12: Comprehensive analysis and planning"
+          ]
+        }
+      ],
+      "kpis": {
+        "sales_metrics": [
+          {
+            "metric": "Total Revenue",
+            "target": "Track baseline, aim for growth"
+          },
+          {
+            "metric": "Conversion Rate",
+            "target": "2-5% (varies by platform)"
+          },
+          {
+            "metric": "Average Order Value",
+            "target": "Track and optimize"
+          },
+          {
+            "metric": "Customer Acquisition Cost (CAC)",
+            "target": "< 30% of order value"
+          }
+        ],
+        "marketing_metrics": [
+          {
+            "metric": "Website/Store Traffic",
+            "target": "Increase 100% MoM"
+          },
+          {
+            "metric": "Social Media Followers",
+            "target": "+500-1000 per month"
+          },
+          {
+            "metric": "Email List Growth",
+            "target": "+200-500 subscribers per month"
+          },
+          {
+            "metric": "Engagement Rate",
+            "target": "> 3% on social media"
+          },
+          {
+            "metric": "ROAS (Return on Ad Spend)",
+            "target": "> 3:1"
+          }
+        ],
+        "content_metrics": [
+          {
+            "metric": "Content Reach",
+            "target": "Track and grow"
+          },
+          {
+            "metric": "Click-Through Rate",
+            "target": "> 2%"
+          },
+          {
+            "metric": "Video Views",
+            "target": "Increase monthly"
+          }
+        ]
+      },
+      "action_items": [
+        {
+          "priority": "High",
+          "action": "Set up social media business accounts",
+          "timeline": "Week 1",
+          "owner": "Marketing team"
+        },
+        {
+          "priority": "High",
+          "action": "Create product photography and videos",
+          "timeline": "Week 1-2",
+          "owner": "Content team"
+        },
+        {
+          "priority": "High",
+          "action": "Set up Facebook/Instagram Ads account",
+          "timeline": "Week 1",
+          "owner": "Marketing team"
+        },
+        {
+          "priority": "Medium",
+          "action": "Create content calendar for 30 days",
+          "timeline": "Week 2",
+          "owner": "Content team"
+        },
+        {
+          "priority": "Medium",
+          "action": "Research and contact micro-influencers",
+          "timeline": "Week 2-3",
+          "owner": "Marketing team"
+        },
+        {
+          "priority": "Medium",
+          "action": "Set up email marketing platform",
+          "timeline": "Week 2",
+          "owner": "Marketing team"
+        },
+        {
+          "priority": "Low",
+          "action": "Create blog content plan",
+          "timeline": "Week 3-4",
+          "owner": "Content team"
+        }
+      ],
+      "accuracy_metrics": {
+        "confidence_score": 90.0,
+        "confidence_level": "High",
+        "budget_tier": "Medium",
+        "strategy_completeness": "100%",
+        "data_backed_recommendations": true,
+        "recommendation_reliability": "High - Comprehensive Medium-tier strategy with proven tactics",
+        "implementation_readiness": "Ready to execute"
+      },
+      "generated_at": "2025-11-24 16:31:32"
+    },
+    "status": "completed"
+  }
+}

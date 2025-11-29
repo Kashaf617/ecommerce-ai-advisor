@@ -1,0 +1,822 @@
+{
+  "status": "success",
+  "timestamp": "2025-11-27 22:27:42",
+  "input": {
+    "category": "Electronics",
+    "product_name": "Wireless Headphones",
+    "price": 14000.0,
+    "budget": 280000.0,
+    "quantity": 100,
+    "target_market": "pakistan",
+    "marketing_budget": 140000.0,
+    "currency": "PKR",
+    "currency_symbol": "Rs",
+    "exchange_rate": 1
+  },
+  "module_1_scraper": {
+    "total_products_scraped": 100,
+    "platforms": [
+      "amazon",
+      "daraz"
+    ],
+    "status": "completed"
+  },
+  "module_2_trends": {
+    "category_trends": {
+      "category": "Electronics",
+      "total_products": 815,
+      "average_price": 12591.939877300614,
+      "price_range": {
+        "min": 10.11,
+        "max": 49980.07
+      },
+      "average_rating": 4.117055214723927,
+      "total_reviews": 1629620,
+      "top_brands": [
+        {
+          "name": "Brand W",
+          "count": 56
+        },
+        {
+          "name": "Brand U",
+          "count": 44
+        },
+        {
+          "name": "Brand R",
+          "count": 42
+        },
+        {
+          "name": "Brand Q",
+          "count": 41
+        },
+        {
+          "name": "Brand C",
+          "count": 39
+        },
+        {
+          "name": "Brand T",
+          "count": 39
+        },
+        {
+          "name": "Brand G",
+          "count": 37
+        },
+        {
+          "name": "Brand J",
+          "count": 34
+        },
+        {
+          "name": "Brand N",
+          "count": 32
+        },
+        {
+          "name": "Brand H",
+          "count": 31
+        }
+      ],
+      "top_sellers": [
+        {
+          "name": "Seller 43",
+          "count": 16
+        },
+        {
+          "name": "Seller 73",
+          "count": 12
+        },
+        {
+          "name": "Seller 99",
+          "count": 12
+        },
+        {
+          "name": "Daraz Seller 24",
+          "count": 10
+        },
+        {
+          "name": "Seller 79",
+          "count": 10
+        },
+        {
+          "name": "Seller 34",
+          "count": 10
+        },
+        {
+          "name": "Daraz Seller 35",
+          "count": 10
+        },
+        {
+          "name": "Daraz Seller 53",
+          "count": 10
+        },
+        {
+          "name": "Daraz Seller 34",
+          "count": 10
+        },
+        {
+          "name": "Daraz Seller 22",
+          "count": 10
+        }
+      ],
+      "platform_distribution": {
+        "amazon": 424,
+        "daraz": 391
+      },
+      "price_segments": {
+        "Budget": {
+          "count": 544,
+          "avg_price": 2056.0807352941174,
+          "avg_rating": 4.172426470588236
+        },
+        "Mid-range": {
+          "count": 127,
+          "avg_price": 24350.95913385827,
+          "avg_rating": 4.050393700787401
+        },
+        "Premium": {
+          "count": 144,
+          "avg_price": 42023.27270833333,
+          "avg_rating": 3.9666666666666663
+        }
+      },
+      "discount_analysis": {
+        "products_with_discount": 450,
+        "discount_percentage": 55.2,
+        "average_discount": 51.484222222222215,
+        "max_discount": 98.1,
+        "median_discount": 51.1
+      },
+      "availability analysis": {
+        "distribution": {
+          "In Stock": 283,
+          "Pre-order": 265,
+          "Limited Stock": 140,
+          "Out of Stock": 127
+        },
+        "in_stock_percentage": 34.7
+      },
+      "accuracy_metrics": {
+        "accuracy_score": 97.5,
+        "confidence_level": "High",
+        "sample_size": 815,
+        "data_quality_score": 100,
+        "reliability": "Reliable",
+        "notes": [
+          "Good sample size - results are statistically significant"
+        ]
+      },
+      "analyzed_at": "2025-11-27 22:27:43"
+    },
+    "demand_forecast": {
+      "category": "Electronics",
+      "forecast_period_days": 30,
+      "current_demand_score": 92.94,
+      "demand_level": "High",
+      "weekly_forecast": [
+        {
+          "week": 1,
+          "estimated_demand": 19499.24,
+          "confidence": 61.8
+        },
+        {
+          "week": 2,
+          "estimated_demand": 21211.75,
+          "confidence": 58.5
+        },
+        {
+          "week": 3,
+          "estimated_demand": 22924.26,
+          "confidence": 55.2
+        },
+        {
+          "week": 4,
+          "estimated_demand": 24636.78,
+          "confidence": 52.0
+        }
+      ],
+      "forecast_method": "MovingAverage",
+      "is_ml_forecast": true,
+      "key_metrics": {
+        "average_rating": 4.12,
+        "average_reviews": 2000.0,
+        "total_products": 815
+      },
+      "recommendations": [
+        "Strong market demand detected - excellent opportunity to enter",
+        "Consider competitive pricing to capture market share",
+        "Invest in marketing to capitalize on high demand",
+        "Ensure adequate inventory to meet demand"
+      ],
+      "forecasted_at": "2025-11-27 22:27:43",
+      "accuracy_metrics": {
+        "forecast_confidence": 95,
+        "confidence_level": "High",
+        "model_type": "Statistical Analysis",
+        "data_points": 815,
+        "prediction_reliability": "Highly reliable - strong data support",
+        "margin_of_error": "±5%"
+      }
+    },
+    "trending_products": [
+      {
+        "title": "Fashion Product 9",
+        "platform": "amazon",
+        "category": "Books",
+        "price": 23.91,
+        "rating": 4.9,
+        "reviews": 3808,
+        "discount": 94.8,
+        "trending_score": 0.9237536589943582,
+        "url": "https://amazon.com/product/9"
+      },
+      {
+        "title": "Fashion Product 9",
+        "platform": "amazon",
+        "category": "Books",
+        "price": 23.91,
+        "rating": 4.9,
+        "reviews": 3808,
+        "discount": 94.8,
+        "trending_score": 0.9237536589943582,
+        "url": "https://amazon.com/product/9"
+      },
+      {
+        "title": "Beauty Item 12",
+        "platform": "daraz",
+        "category": "Home",
+        "price": 1304.36,
+        "rating": 5.0,
+        "reviews": 2301,
+        "discount": 97.1,
+        "trending_score": 0.9235460076784548,
+        "url": "https://daraz.pk/product/12"
+      },
+      {
+        "title": "Beauty Item 12",
+        "platform": "daraz",
+        "category": "Home",
+        "price": 1304.36,
+        "rating": 5.0,
+        "reviews": 2301,
+        "discount": 97.1,
+        "trending_score": 0.9235460076784548,
+        "url": "https://daraz.pk/product/12"
+      },
+      {
+        "title": "Beauty Product 39",
+        "platform": "amazon",
+        "category": "Fashion",
+        "price": 16.9,
+        "rating": 4.8,
+        "reviews": 3686,
+        "discount": 94.9,
+        "trending_score": 0.9150770519470244,
+        "url": "https://amazon.com/product/39"
+      },
+      {
+        "title": "Beauty Product 39",
+        "platform": "amazon",
+        "category": "Fashion",
+        "price": 16.9,
+        "rating": 4.8,
+        "reviews": 3686,
+        "discount": 94.9,
+        "trending_score": 0.9150770519470244,
+        "url": "https://amazon.com/product/39"
+      },
+      {
+        "title": "Fashion Product 28",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 51.04,
+        "rating": 5.0,
+        "reviews": 3765,
+        "discount": 89.2,
+        "trending_score": 0.9146130612765129,
+        "url": "https://amazon.com/product/28"
+      },
+      {
+        "title": "Fashion Product 28",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 51.04,
+        "rating": 5.0,
+        "reviews": 3765,
+        "discount": 89.2,
+        "trending_score": 0.9146130612765129,
+        "url": "https://amazon.com/product/28"
+      },
+      {
+        "title": "Fashion Product 48",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 16.96,
+        "rating": 4.8,
+        "reviews": 3181,
+        "discount": 95.6,
+        "trending_score": 0.9127579562669319,
+        "url": "https://amazon.com/product/48"
+      },
+      {
+        "title": "Fashion Product 48",
+        "platform": "amazon",
+        "category": "Home & Kitchen",
+        "price": 16.96,
+        "rating": 4.8,
+        "reviews": 3181,
+        "discount": 95.6,
+        "trending_score": 0.9127579562669319,
+        "url": "https://amazon.com/product/48"
+      }
+    ],
+    "status": "completed"
+  },
+  "module_3_competitors": {
+    "total_competitors": 20,
+    "top_competitors": [
+      {
+        "seller_name": "Daraz Seller 43",
+        "product_count": 4,
+        "average_price": 12385.599999999999,
+        "price_range": {
+          "min": 10850.3,
+          "max": 13920.9
+        },
+        "average_rating": 4.45,
+        "total_reviews": 2792,
+        "platforms": [
+          "daraz"
+        ],
+        "average_discount": 36.95,
+        "competitive_score": 65.25
+      },
+      {
+        "seller_name": "Daraz Seller 2",
+        "product_count": 2,
+        "average_price": 17556.78,
+        "price_range": {
+          "min": 17556.78,
+          "max": 17556.78
+        },
+        "average_rating": 5.0,
+        "total_reviews": 4618,
+        "platforms": [
+          "daraz"
+        ],
+        "average_discount": 0.0,
+        "competitive_score": 64.0
+      },
+      {
+        "seller_name": "Daraz Seller 39",
+        "product_count": 4,
+        "average_price": 14203.435,
+        "price_range": {
+          "min": 10477.89,
+          "max": 17928.98
+        },
+        "average_rating": 4.05,
+        "total_reviews": 2630,
+        "platforms": [
+          "daraz"
+        ],
+        "average_discount": 41.800000000000004,
+        "competitive_score": 63.25
+      },
+      {
+        "seller_name": "Daraz Seller 74",
+        "product_count": 2,
+        "average_price": 14391.29,
+        "price_range": {
+          "min": 14391.29,
+          "max": 14391.29
+        },
+        "average_rating": 4.8,
+        "total_reviews": 5666,
+        "platforms": [
+          "daraz"
+        ],
+        "average_discount": 0.0,
+        "competitive_score": 63.0
+      },
+      {
+        "seller_name": "Daraz Seller 16",
+        "product_count": 2,
+        "average_price": 16809.45,
+        "price_range": {
+          "min": 16809.45,
+          "max": 16809.45
+        },
+        "average_rating": 4.6,
+        "total_reviews": 5932,
+        "platforms": [
+          "daraz"
+        ],
+        "average_discount": 0.0,
+        "competitive_score": 62.0
+      }
+    ],
+    "competitive_analysis": {
+      "category": "Electronics",
+      "user_price": 14000.0,
+      "market_statistics": {
+        "average_price": 13998.06,
+        "median_price": 14135.82,
+        "price_range": {
+          "min": 10231.15,
+          "max": 17556.78
+        },
+        "average_rating": 4.1
+      },
+      "price_positioning": "Mid-range",
+      "price_competitiveness": "Market Average",
+      "top_competitors": [
+        {
+          "seller_name": "Daraz Seller 43",
+          "product_count": 4,
+          "average_price": 12385.599999999999,
+          "price_range": {
+            "min": 10850.3,
+            "max": 13920.9
+          },
+          "average_rating": 4.45,
+          "total_reviews": 2792,
+          "platforms": [
+            "daraz"
+          ],
+          "average_discount": 36.95,
+          "competitive_score": 65.25
+        },
+        {
+          "seller_name": "Daraz Seller 2",
+          "product_count": 2,
+          "average_price": 17556.78,
+          "price_range": {
+            "min": 17556.78,
+            "max": 17556.78
+          },
+          "average_rating": 5.0,
+          "total_reviews": 4618,
+          "platforms": [
+            "daraz"
+          ],
+          "average_discount": 0.0,
+          "competitive_score": 64.0
+        },
+        {
+          "seller_name": "Daraz Seller 39",
+          "product_count": 4,
+          "average_price": 14203.435,
+          "price_range": {
+            "min": 10477.89,
+            "max": 17928.98
+          },
+          "average_rating": 4.05,
+          "total_reviews": 2630,
+          "platforms": [
+            "daraz"
+          ],
+          "average_discount": 41.800000000000004,
+          "competitive_score": 63.25
+        },
+        {
+          "seller_name": "Daraz Seller 74",
+          "product_count": 2,
+          "average_price": 14391.29,
+          "price_range": {
+            "min": 14391.29,
+            "max": 14391.29
+          },
+          "average_rating": 4.8,
+          "total_reviews": 5666,
+          "platforms": [
+            "daraz"
+          ],
+          "average_discount": 0.0,
+          "competitive_score": 63.0
+        },
+        {
+          "seller_name": "Daraz Seller 16",
+          "product_count": 2,
+          "average_price": 16809.45,
+          "price_range": {
+            "min": 16809.45,
+            "max": 16809.45
+          },
+          "average_rating": 4.6,
+          "total_reviews": 5932,
+          "platforms": [
+            "daraz"
+          ],
+          "average_discount": 0.0,
+          "competitive_score": 62.0
+        }
+      ],
+      "market_saturation": {
+        "level": "High",
+        "competitor_count": 20,
+        "description": "Many competitors - saturated market, differentiation crucial"
+      },
+      "competitive_advantages": [
+        "Multi-platform strategy could provide advantage",
+        "Market relies heavily on discounts - opportunity for value positioning"
+      ],
+      "recommendations": [
+        "High competition - focus on niche differentiation",
+        "Invest in unique value propositions and customer experience",
+        "Consider partnering with influencers to stand out",
+        "Monitor competitor pricing and adjust strategy quarterly",
+        "Differentiate through superior customer service and product quality"
+      ],
+      "accuracy_metrics": {
+        "accuracy_score": 94.0,
+        "confidence_level": "High",
+        "competitors_analyzed": 20,
+        "data_completeness": 100.0,
+        "analysis_reliability": "High - Comprehensive competitive data available",
+        "recommendation": "Analysis is reliable - confidence in competitive insights"
+      },
+      "analyzed_at": "2025-11-27 22:27:43"
+    },
+    "status": "completed"
+  },
+  "module_4_suppliers": {
+    "recommended_suppliers": [
+      {
+        "name": "Premium Brand Distributors",
+        "type": "Brand Distributor",
+        "region": "UAE",
+        "moq_range": [
+          50,
+          2000
+        ],
+        "price_tier": "High",
+        "quality_rating": 4.8,
+        "reliability_score": 4.9,
+        "shipping_time_days": [
+          5,
+          10
+        ],
+        "specialty_categories": [
+          "Electronics",
+          "Beauty",
+          "Fashion"
+        ],
+        "contact": "premium-dist.ae",
+        "recommendation_score": 76.83,
+        "estimated_unit_cost": 56.25,
+        "estimated_total_cost": 5625.0,
+        "fits_budget": true,
+        "pros": [
+          "High quality products (rating: 4.8/5)",
+          "Highly reliable supplier",
+          "Fast shipping (up to 10 days)"
+        ],
+        "cons": [
+          "Higher cost structure",
+          "International shipping complexities"
+        ]
+      },
+      {
+        "name": "Alibaba Wholesale",
+        "type": "Wholesale Platform",
+        "region": "China",
+        "moq_range": [
+          100,
+          10000
+        ],
+        "price_tier": "Low",
+        "quality_rating": 4.2,
+        "reliability_score": 4.5,
+        "shipping_time_days": [
+          15,
+          30
+        ],
+        "specialty_categories": [
+          "Electronics",
+          "Fashion",
+          "Home"
+        ],
+        "contact": "alibaba.com",
+        "recommendation_score": 76.0,
+        "estimated_unit_cost": 11.25,
+        "estimated_total_cost": 1125.0,
+        "fits_budget": true,
+        "pros": [
+          "Low cost sourcing (Low price tier)",
+          "Highly reliable supplier"
+        ],
+        "cons": [
+          "International shipping complexities"
+        ]
+      },
+      {
+        "name": "DHgate",
+        "type": "Wholesale Platform",
+        "region": "China",
+        "moq_range": [
+          1,
+          1000
+        ],
+        "price_tier": "Low",
+        "quality_rating": 3.8,
+        "reliability_score": 4.0,
+        "shipping_time_days": [
+          10,
+          25
+        ],
+        "specialty_categories": [
+          "Electronics",
+          "Fashion",
+          "Sports"
+        ],
+        "contact": "dhgate.com",
+        "recommendation_score": 74.28,
+        "estimated_unit_cost": 11.25,
+        "estimated_total_cost": 1125.0,
+        "fits_budget": true,
+        "pros": [
+          "Low cost sourcing (Low price tier)",
+          "Low MOQ (minimum 1 units)"
+        ],
+        "cons": [
+          "Quality concerns (rating: 3.8/5)",
+          "International shipping complexities"
+        ]
+      }
+    ],
+    "sourcing_strategy": {
+      "product_category": "Electronics",
+      "recommended_suppliers": [
+        {
+          "name": "Premium Brand Distributors",
+          "type": "Brand Distributor",
+          "region": "UAE",
+          "moq_range": [
+            50,
+            2000
+          ],
+          "price_tier": "High",
+          "quality_rating": 4.8,
+          "reliability_score": 4.9,
+          "shipping_time_days": [
+            5,
+            10
+          ],
+          "specialty_categories": [
+            "Electronics",
+            "Beauty",
+            "Fashion"
+          ],
+          "contact": "premium-dist.ae",
+          "recommendation_score": 76.83,
+          "estimated_unit_cost": 56.25,
+          "estimated_total_cost": 5625.0,
+          "fits_budget": true,
+          "pros": [
+            "High quality products (rating: 4.8/5)",
+            "Highly reliable supplier",
+            "Fast shipping (up to 10 days)"
+          ],
+          "cons": [
+            "Higher cost structure",
+            "International shipping complexities"
+          ]
+        },
+        {
+          "name": "Alibaba Wholesale",
+          "type": "Wholesale Platform",
+          "region": "China",
+          "moq_range": [
+            100,
+            10000
+          ],
+          "price_tier": "Low",
+          "quality_rating": 4.2,
+          "reliability_score": 4.5,
+          "shipping_time_days": [
+            15,
+            30
+          ],
+          "specialty_categories": [
+            "Electronics",
+            "Fashion",
+            "Home"
+          ],
+          "contact": "alibaba.com",
+          "recommendation_score": 76.0,
+          "estimated_unit_cost": 11.25,
+          "estimated_total_cost": 1125.0,
+          "fits_budget": true,
+          "pros": [
+            "Low cost sourcing (Low price tier)",
+            "Highly reliable supplier"
+          ],
+          "cons": [
+            "International shipping complexities"
+          ]
+        },
+        {
+          "name": "DHgate",
+          "type": "Wholesale Platform",
+          "region": "China",
+          "moq_range": [
+            1,
+            1000
+          ],
+          "price_tier": "Low",
+          "quality_rating": 3.8,
+          "reliability_score": 4.0,
+          "shipping_time_days": [
+            10,
+            25
+          ],
+          "specialty_categories": [
+            "Electronics",
+            "Fashion",
+            "Sports"
+          ],
+          "contact": "dhgate.com",
+          "recommendation_score": 74.28,
+          "estimated_unit_cost": 11.25,
+          "estimated_total_cost": 1125.0,
+          "fits_budget": true,
+          "pros": [
+            "Low cost sourcing (Low price tier)",
+            "Low MOQ (minimum 1 units)"
+          ],
+          "cons": [
+            "Quality concerns (rating: 3.8/5)",
+            "International shipping complexities"
+          ]
+        }
+      ],
+      "business_model_recommendations": {
+        "recommended_model": "Small Batch Wholesale",
+        "reason": "Moderate investment - buy small wholesale batches for better margins"
+      },
+      "sourcing_approach": "Primary supplier with backup supplier, moderate orders",
+      "quality_control_tips": [
+        "Request product samples before bulk order",
+        "Conduct third-party quality inspection",
+        "Start with smaller test orders",
+        "Review supplier certifications and compliance",
+        "Check customer reviews and ratings"
+      ],
+      "negotiation_tips": [
+        "For orders above 100 units, negotiate 10-15% bulk discount",
+        "Request better payment terms (e.g., 30% deposit, 70% on delivery)",
+        "Ask for free samples or reduced sample costs",
+        "Negotiate shipping costs for large orders",
+        "Build long-term relationship for better terms"
+      ],
+      "risk_mitigation": [
+        "Use secure payment methods (escrow, trade assurance)",
+        "Purchase shipping insurance",
+        "Verify supplier credentials and business license",
+        "Start with small test batch before scaling",
+        "Have backup suppliers identified"
+      ],
+      "generated_at": "2025-11-27 22:27:43"
+    },
+    "accuracy_metrics": {
+      "confidence_score": 87.0,
+      "confidence_level": "High",
+      "suppliers_found": 3,
+      "data_completeness": "100%",
+      "recommendation_reliability": "High - Multiple suitable suppliers with complete data",
+      "note": "Recommendations based on MOQ compatibility and category specialization"
+    },
+    "status": "completed"
+  },
+  "module_5_pricing": {
+    "product_cost": 56.25,
+    "platform_comparison": [
+      {
+        "platform": "daraz",
+        "platform_display_name": "Daraz",
+        "total_cost": 80.44,
+        "profit": 13919.56,
+        "profit_margin": 99.43,
+        "roi": 17304.82,
+        "recommendation": "Recommended"
+      },
+      {
+        "platform": "amazon",
+        "platform_display_name": "Amazon",
+        "total_cost": 91.79,
+        "profit": 13908.21,
+        "profit_margin": 99.34,
+        "roi": 15151.43,
+        "recommendation": "Recommended"
+      }
+    ],
+    "amazon_pricing": {
+      "predicted_price": 65.83953094482422,
+      "cost": 56.25,
+      "profit": 9.589530944824219,
+      "margin_percent": 14.565004955549538,
+      "roi_percent": 17.048055013020832,
+      "confidence": 0.85,
+      "confidence_level": "High",
+      "model_type": "XGBoost ML",
+      "is_ml_prediction": true,
+      "feature_importance": {
+        "cost": 

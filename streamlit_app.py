@@ -774,7 +774,6 @@ def main():
                     st.metric("Income Level", demographics.get('income_level', 'N/A'))
                 with col2:
                     st.metric("Gender", demographics.get('gender', 'N/A'))
-                    st.metric("Education", demographics.get('education', 'N/A'))
                 
                 if personas:
                     st.markdown("### Primary Buyer Persona")
